@@ -47,7 +47,7 @@
 * [Ethereum RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) - Ethereum Wiki
 * [RLP编码原理](https://my.oschina.net/u/2349981/blog/894117)
 
-### 共识机制
+### 共识
 
 * [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
 * [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
@@ -70,11 +70,9 @@
 
 ### 密码学
 
-### 博弈论
-
 ### 经济学
 
-
+  * .[ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) --强烈推荐
 
 ## 大牛谈话
 
