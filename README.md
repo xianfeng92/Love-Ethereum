@@ -107,7 +107,7 @@
 ## Dapps
 
 * [谈谈区块链（15）：盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
-* [Dapp应用实例之dog shop]（https://github.com/xianfeng92/dog-shop）
+* .[Dapp应用实例之dog shop]（https://github.com/xianfeng92/dog-shop）
 
 #### The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
 
