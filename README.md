@@ -9,12 +9,15 @@
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
 * [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
+* [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
 * [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
+* [bitcoin 协议说明](https://zh-cn.bitcoin.it/wiki/%E5%8D%8F%E8%AE%AE%E8%AF%B4%E6%98%8E)
 * [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
 * [区块链核心技术演进之路-共识机制演进(1)](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
+* [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？(转)](https://bihu.com/article/68269)
 
 
 ## 白皮书
@@ -25,6 +28,7 @@
 
 * [巴比特](http://www.8btc.com/)
 * [Ethfans](http://ethfans.org/)
+* [区块链大学](https://www.qkldx.net/)
 
 ----------------
 
@@ -61,6 +65,7 @@
 * [POS白皮书：基于权益证明的交易](https://yq.aliyun.com/articles/60400)
 * [深度解析POS和POW的区别](http://8btc.com/article-1882-1.html)
 >
+* [DPOS共识算法-by BM](http://me.tryblockchain.org/blockchain-dpos-bm-eos.html) -强烈推荐
 * [DPOS——回归中本聪](http://www.8btc.com/dpos-back-to-satoshi)
 * [信息图：股份授权证明机制（DPOS）](http://www.8btc.com/dpossha)
 * [DPOS共识算法 -- 缺失的白皮书](https://steemit.com/dpos/@legendx/dpos)
@@ -72,11 +77,14 @@
 
 ### 经济学
 
-  * .[ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) --强烈推荐
+  * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
+
+  * .[ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
 
 ## 大牛谈话
 
-  * .[所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)--强烈推荐
+  * .[所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-强烈推荐
+  * [一个满是干货的区块链谈话](https://bihu.com/article/247244)
 
 ----------------
 
@@ -96,6 +104,11 @@
 * [以太坊开发计划](http://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E5%BC%80%E5%8F%91%E8%AE%A1%E5%88%92)
 >
 * [实现这些扩容方案，以太坊将可支持10亿用户](http://www.8btc.com/scaling-ethereum-to-billions-of-users)
+>
+* [以太坊开发入门，完整入门篇](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
+* [从区块链的基础知识出发，研究ETH和EOS的区别](https://bihu.com/article/165408)
+* [关于以太坊，你必须要知道的～～～Casper](https://bihu.com/article/142335)
+
 
 ## 智能合约
 
@@ -103,18 +116,11 @@
 * [Solidity 官方文档中文版](http://wiki.jikexueyuan.com/project/solidity-zh/)
 * [区块链技术-智能合约-以太坊（译文）](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) - 简单易懂的例子“智能赞助”
 
-## Dapps
-
-* [谈谈区块链（15）：盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
-* [区块链应用之dog shop](https://github.com/xianfeng92/dog-shop)
-
-#### The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
-
-* [道or悼？三分钟看懂史上最逆天的区块链众筹项目The DAO](http://www.8btc.com/what-is-the-dao)
-* [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
-* [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
-
 ## 重要的技术点
+
+### 权益证明
+
+* [权益证明 FAQ（完整版）](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
 
 ### Casper
 
@@ -124,6 +130,22 @@
 ### Sharding
 
 ----------------
+
+## Dapp 开发
+
+* [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
+* [以太坊入门 part1](https://bihu.com/article/563457)
+* [智能合约开发环境搭建及Hello World合约](https://bihu.com/article/565996)
+* [搭建以太坊私有链](https://bihu.com/article/567206)
+* [区块链应用之dog shop](https://github.com/xianfeng92/dog-shop)
+
+#### The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
+
+* [道or悼？三分钟看懂史上最逆天的区块链众筹项目The DAO](http://www.8btc.com/what-is-the-dao)
+* [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
+* [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
+
+
 
 ## 常用术语
 
