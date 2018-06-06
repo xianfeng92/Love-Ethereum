@@ -95,9 +95,6 @@
 * [给Zcash泼泼冷水-有了深黑，市场真的需要纯黑吗？](http://8btc.com/thread-41384-1-1.html) - 推荐
 * [不是程序员也能看懂的ZCash零知识证明](http://www.sohu.com/a/121847942_475384)
 
-### Zcoin
-### Dash
-### Monero
 
 ----------------
 
@@ -120,10 +117,6 @@
 * [根链平台(RootStock)——基于比特币驱动的智能合约白皮书](http://www.8btc.com/tan90d84)
 * [BTC-Relay与RootStock侧链技术对比](http://www.8btc.com/btc-relay-and-rootstock)
 
-### [BTC Relay](http://btcrelay.org/) - (Ethereum侧链: 跨链 -> Bitcoin)
-
-### [Polkadot]()
-### [Cosmos]()
 
 --------------------------
 
@@ -192,10 +185,6 @@
 * [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
 * [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
 
-#### Swarm
-#### Whisper
-#### [BTC Relay](http://btcrelay.org/)
-#### Oraclize
 
 ----------------
 
@@ -236,18 +225,3 @@
 * Auxiliary Blockchain
 
 ----------------
-
-## Bitcoin网络协议
-
-* version
-* verack
-* addr
-* getaddr
-* getblocks           本地区块链的顶端区块哈希值
-* inv                 补充区块的哈希值
-* getdata             请求得到全区块信息
-* getheaders
-* headers
-* filterload
-* filteradd
-* filterclear
