@@ -90,11 +90,6 @@
 
 # Ethereum
 
-
-## [Ethereum - ETH](https://ethereum.org/) - (v2.0 - 智能合约), [github](https://github.com/ethereum/go-ethereum)
-
-* ETH - Ethereum, 以太坊
-* ETC - Ethereum Classic, 以太坊原链
 >
 * [以太坊白皮书](https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
 * [以太坊官网文档中文版](http://book.8btc.com/books/6/ethereum/_book)
