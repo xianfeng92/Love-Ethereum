@@ -6,17 +6,16 @@
 
 ## 基础知识
 
-* [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book)
+* [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
+* [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
-* [比原链联合创始人段新星：希望建立起连接比特世界和原子世界资产交互的桥梁](http://www.8btc.com/bytom-duanxinxing)
-* [其实并没有什么比特币，只有 UTXO](http://8btc.com/article-4381-1.html)
+* [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
 * [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
 * [区块链核心技术演进之路-共识机制演进(1)](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
-* [区块链的跨链技术介绍完整版](http://blog.csdn.net/elwingao/article/details/53410750)
-* [比原链设计思考：侧链存在的价值](http://www.8btc.com/bytom-sidechain)
+
 
 ## 白皮书
 
@@ -48,7 +47,7 @@
 * [Ethereum RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) - Ethereum Wiki
 * [RLP编码原理](https://my.oschina.net/u/2349981/blog/894117)
 
-### 共识
+### 共识算法
 
 * [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
 * [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
@@ -119,6 +118,8 @@
 
 ### Casper
 
+* [以太坊Casper项目](https://github.com/xianfeng92/casper)
+* [科普 | 什么是以太坊Casper协议？](https://ethfans.org/posts/ethereum-casper)
 
 ### Sharding
 
