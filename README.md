@@ -8,6 +8,7 @@
 
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
 * [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
+* [blockchain-demo](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
 * [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
