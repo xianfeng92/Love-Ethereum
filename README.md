@@ -150,6 +150,8 @@
 * [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
 * [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
 
+＃　项目评测
+
 
 
 ## 常用术语
