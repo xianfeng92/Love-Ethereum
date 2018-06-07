@@ -15,6 +15,7 @@
 * [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
 * [blockchain-demo　演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
+* [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -强烈推荐
 * [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
 * [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
