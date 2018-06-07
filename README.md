@@ -57,7 +57,7 @@
 * [Ethereum RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) - Ethereum Wiki
 * [RLP编码原理](https://my.oschina.net/u/2349981/blog/894117)
 
-### 共识算法
+### 共识算法介绍
 
 * [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
 * [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
