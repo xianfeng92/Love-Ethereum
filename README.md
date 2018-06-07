@@ -3,11 +3,13 @@
 ----------------
 # 区块链基础
 
+---------------
+
 ## 基础知识
 
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
 * [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
-* [blockchain-demo](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
+* [blockchain-demo　演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
 * [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
@@ -19,12 +21,14 @@
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
 * [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 
-
+-----------------
 
 ## 白皮书
 
 * [比特币白皮书：一种点对点的电子现金系统](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
 * [（大鱼）精读比特币白皮书系列（1-6）](https://www.jianshu.com/p/ca0c0a0e0faa)
+
+-----------------
 
 ## 社区推荐
 
@@ -75,6 +79,7 @@
 >
 * [相比POS和DPOS，POW更有利于区块链原生代币的价格稳定吗？](https://www.zhihu.com/question/49995385)
 
+
 ### 分布式系统
 
 
@@ -91,6 +96,10 @@
 ### Token
 
 
+
+----------------
+
+
 ## 大牛谈话
 
   * [所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-强烈推荐
@@ -98,12 +107,13 @@
 
 ----------------
 
+
 # Ethereum
 
 >
 * [以太坊白皮书](https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
 * [以太坊官网文档中文版](http://book.8btc.com/books/6/ethereum/_book)
-* [以太坊技术详解与实战]
+* [<<以太坊技术详解与实战>>]
 >
 * [Teahour 以太坊专访-文字版](http://ethfans.org/shaoping/articles/talk-with-jan-about-ehtereum) - 强烈推荐
 * [智能合约](http://ethfans.org/wikis/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
@@ -112,15 +122,20 @@
 * [实现这些扩容方案，以太坊将可支持10亿用户](http://www.8btc.com/scaling-ethereum-to-billions-of-users)
 >
 * [以太坊开发入门，完整入门篇](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
+* [以太坊入门](https://bihu.com/article/563457)
 * [从区块链的基础知识出发，研究ETH和EOS的区别](https://bihu.com/article/165408)
 * [关于以太坊，你必须要知道的～～～Casper](https://bihu.com/article/142335)
 
+-----------------
 
 ## 智能合约
 
 * [以太坊开发入门](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
 * [Solidity 官方文档中文版](http://wiki.jikexueyuan.com/project/solidity-zh/)
 * [区块链技术-智能合约-以太坊（译文）](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) - 简单易懂的例子“智能赞助”
+
+
+-----------------
 
 ## 重要的技术点
 
@@ -137,16 +152,16 @@
 
 ----------------
 
-## Dapp开发
+## Dapp
 
-* [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
-* [以太坊入门 part1](https://bihu.com/article/563457)
 * [智能合约开发环境搭建及Hello World合约](https://bihu.com/article/565996)
 * [搭建以太坊私有链](https://bihu.com/article/567206)
 * [区块链应用之dog shop](https://github.com/xianfeng92/dog-shop)
+* [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
 
+----------------
 
-#### The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
+## The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
 
 * [道or悼？三分钟看懂史上最逆天的区块链众筹项目The DAO](http://www.8btc.com/what-is-the-dao)
 * [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
@@ -158,17 +173,23 @@
 
 ### 下面主要是项目评测以及虚拟币的买卖
 
-友情提醒：　币市风险大
+友情提醒：　币市风险大大大大大
+
+
 　　　　　　　　　　　　
 学习区块链知识，做好自己的价值投资
 
 ------------------------------------------------------------------------------------------------------------
 
 
+
+
 # 项目评测
 
 * [解读AE丨卖酒的希望超越以太坊ETH，阿姨币了解一下？](https://mp.weixin.qq.com/s/VV7_1czzD-_AoasSCETBZQ)
 * [解读ZIL丨“袁绍点兵，多多益善‘’，掌握分片技术的行军之道](https://mp.weixin.qq.com/s/TTz46Rsl1Z4rKAUB9YIIIA)
+
+-----------------
 
 
 # 虚拟货币交易
