@@ -18,12 +18,13 @@
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
 * [区块链核心技术演进之路-共识机制演进(1)](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
-* [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？(转)](https://bihu.com/article/68269)
+* [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 
 
 ## 白皮书
 
 * [比特币白皮书：一种点对点的电子现金系统](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
+* [（大鱼）精读比特币白皮书系列（1-6）](https://www.jianshu.com/p/ca0c0a0e0faa)
 
 ## 社区推荐
 
@@ -74,17 +75,23 @@
 >
 * [相比POS和DPOS，POW更有利于区块链原生代币的价格稳定吗？](https://www.zhihu.com/question/49995385)
 
+### 分布式系统
+
 ### 密码学
 
 ### 经济学
 
   * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
 
-  * .[ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
+  * [ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
+
+
+### Token
+
 
 ## 大牛谈话
 
-  * .[所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-强烈推荐
+  * [所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-强烈推荐
   * [一个满是干货的区块链谈话](https://bihu.com/article/247244)
 
 ----------------
@@ -128,13 +135,14 @@
 
 ----------------
 
-## Dapp 开发
+## Dapp开发
 
 * [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
 * [以太坊入门 part1](https://bihu.com/article/563457)
 * [智能合约开发环境搭建及Hello World合约](https://bihu.com/article/565996)
 * [搭建以太坊私有链](https://bihu.com/article/567206)
 * [区块链应用之dog shop](https://github.com/xianfeng92/dog-shop)
+
 
 #### The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
 
@@ -179,5 +187,4 @@
 >
 * Auxiliary Proof-of-Work - AuxPOW
 * Auxiliary Blockchain
-
 ----------------
