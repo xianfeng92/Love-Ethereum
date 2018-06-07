@@ -154,49 +154,10 @@
 
 
 
-## 常用术语
-
-* 共识机制 - Consensus
-* 拜占庭将军问题 - Byzantine Generals Problem
-* 拜占庭容错 - Byzantine Fault-Tolerant, BFT
-* 纳什均衡 -
-* 双花攻击/双重支付攻击 - Double-Spend Attack
->
-* SPV - 简单支付验证
-* POW - 工作量证明, Proof-Of-Work, 挖矿 (mine)
-* POS - 权益证明, Proof-of-Stake, 铸造 (mint)
-* NXT - 锻造 (forge)
-* DPOS - 股权证明, Delegated Proof-Of-Stake
-* PBFT - Hyperledger Fabric
-* DBFT - 小蚁
-* PAXOS - 传统分布式一致性算法
-* RAFT - 传统分布式一致性算法
-* DMMS - Dynamic Membership Multiparty Signatures
->
-* SHA256 - bitcoin
-* SCRYPT - litecoin
-* HEFTY1
-* ETHASH - ethereum
-* EQUIHASH - zcash
->
-* Merkle Tree - 梅克尔树
-* Merkle Root
-* Merkle Patricia Tree - 梅克尔帕特里夏树
->
-* getwork
-* getblocktemplate
-* stratum
->
-* Auxiliary Proof-of-Work - AuxPOW
-* Auxiliary Blockchain
-----------------
-
-
 # 项目评测
 
 * [解读AE丨卖酒的希望超越以太坊ETH，阿姨币了解一下？](https://mp.weixin.qq.com/s/VV7_1czzD-_AoasSCETBZQ)
 * [解读ZIL丨“袁绍点兵，多多益善‘’，掌握分片技术的行军之道](https://mp.weixin.qq.com/s/TTz46Rsl1Z4rKAUB9YIIIA)
-* []()
 
 
 # 虚拟货币交易
