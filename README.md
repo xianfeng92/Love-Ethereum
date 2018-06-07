@@ -20,6 +20,7 @@
 * [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 
 
+
 ## 白皮书
 
 * [比特币白皮书：一种点对点的电子现金系统](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
@@ -152,9 +153,6 @@
 * [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
 
 
-## 项目评测
-
-
 
 ## 常用术语
 
@@ -194,5 +192,16 @@
 ----------------
 
 
+# 项目评测
+
+* [解读AE丨卖酒的希望超越以太坊ETH，阿姨币了解一下？](https://mp.weixin.qq.com/s/VV7_1czzD-_AoasSCETBZQ)
+* [解读ZIL丨“袁绍点兵，多多益善‘’，掌握分片技术的行军之道](https://mp.weixin.qq.com/s/TTz46Rsl1Z4rKAUB9YIIIA)
+* []()
+
+
+# 虚拟货币交易
+
+* [如何买币卖币](https://mp.weixin.qq.com/s/gRi4q_8EF2DQw4KpeMM-cA)
+* [知识点来啦！了解数字货币交易所知识，争当一名合格的韭菜](https://mp.weixin.qq.com/s/jmwDvsc5-GtAmDDxOTqdxg)
 
 
