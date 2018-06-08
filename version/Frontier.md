@@ -37,6 +37,7 @@
 * [巴比特](http://www.8btc.com/)
 * [Ethfans](http://ethfans.org/)
 * [区块链大学](https://www.qkldx.net/)
+* [小专栏-区块链技术](https://xiaozhuanlan.com/blockchaincore)
 
 ----------------
 
@@ -61,7 +62,7 @@
 
 ### 共识算法介绍
 
-区块链构造的去中心化账本需要解决的首要问题是如何确保不同节点上的账本数据的一致性和正确性,而共识算法正是解决这个问题.
+区块链构造的去中心化账本需要解决的首要问题是如何确保不同节点上的账本数据的一致性和正确性,而共识算法正是解决这个问题。
 
 
 
@@ -96,11 +97,15 @@
  区块链的密码学算法为区块的生成,交易的传输等进行加密.
 
 
+
+
 ### 经济学
 
   * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
 
   * [现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
+
+
 
 
 ### Token
