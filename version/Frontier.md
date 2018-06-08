@@ -39,16 +39,16 @@
 
 ## 社区推荐
 
-* [巴比特](http://www.8btc.com/)
-* [Ethfans](http://ethfans.org/)
-* [区块链大学](https://www.qkldx.net/)
+* [巴比特](http://www.8btc.com/) -巴比特里面还是有很多高水平的文章,毕竟属于国内较早的区块链社区
+* [Ethfans](http://ethfans.org/) -主要是翻译一些国外关于以太坊方面高质量的文章
+* [区块链大学](https://www.qkldx.net/) - 里面有很多区块链技术方面的文章
 
 
 ----------------
 
 ##  Blog推荐
 
-* [区块链技术漫谈](http://blockchaindev.org/)
+* [区块链技术漫谈](http://blockchaindev.org/) -文章质量还是不错的,可惜现在不更新了
 * [小专栏-区块链技术](https://xiaozhuanlan.com/blockchaincore)
 
 
