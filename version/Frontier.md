@@ -15,18 +15,17 @@
 
 ###  好文
 
-* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
-* [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
-* [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -强烈推荐
-* [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
-* [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
-* [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
-* [bitcoin 协议说明](https://zh-cn.bitcoin.it/wiki/%E5%8D%8F%E8%AE%AE%E8%AF%B4%E6%98%8E)
+* [区块链原理最清晰最直观的解释](http://blog.jobbole.com/112551/)- 图文展示区块链结构
+* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 自己动手去演示区块链结构
+* [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -从生活中的例子出发去理解区块链到底解决了什么问题
+* [区块链应用的去中心化——一个乌托邦](http://blockchaindev.org/talk/decentralized-blockchain-applications-are-utopia.html) -关于中心化和去中心化写的很棒
 * [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
 * [区块链核心技术演进之路-共识机制演进](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
+* [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
+* [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
+* [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
-* [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 
 -----------------
 
@@ -148,7 +147,7 @@
 -----------------
 
 ## 智能合约
-
+* [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 * [以太坊开发入门](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
 * [Solidity 官方文档中文版](http://wiki.jikexueyuan.com/project/solidity-zh/)
 * [区块链技术-智能合约-以太坊（译文）](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) - 简单易懂的例子“智能赞助”
