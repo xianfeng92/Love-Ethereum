@@ -10,15 +10,16 @@
 
 ### 书籍
 
-* [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
-* [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
+* [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 精通比特币,就看它
+* [<<区块链革命>>]  -看看区块链可以给货币、商业和世界带来什么改变
 
-###  好文
+###  直推好文
 
 * [区块链原理最清晰最直观的解释](http://blog.jobbole.com/112551/)- 图文展示区块链结构
-* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 自己动手去演示区块链结构
+* [区块链在线演示版本](https://blockchaindemo.io/) - 在线演示区块链
+* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 自己搭建环境去演示区块链结构
 * [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -从生活中的例子出发去理解区块链到底解决了什么问题
-* [区块链应用的去中心化——一个乌托邦](http://blockchaindev.org/talk/decentralized-blockchain-applications-are-utopia.html) -关于中心化和去中心化写的很棒
+* [区块链应用的去中心化——一个乌托邦](http://blockchaindev.org/talk/decentralized-blockchain-applications-are-utopia.html) -关于中心和去中心化写的很棒
 * [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
 * [区块链核心技术演进之路-共识机制演进](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
@@ -41,7 +42,16 @@
 * [巴比特](http://www.8btc.com/)
 * [Ethfans](http://ethfans.org/)
 * [区块链大学](https://www.qkldx.net/)
+
+
+----------------
+
+##  Blog推荐
+
+* [区块链技术漫谈](http://blockchaindev.org/)
 * [小专栏-区块链技术](https://xiaozhuanlan.com/blockchaincore)
+
+
 
 ----------------
 
@@ -86,8 +96,7 @@
 * [信息图：股份授权证明机制（DPOS）](http://www.8btc.com/dpossha)
 * [DPOS共识算法 -- 缺失的白皮书](https://steemit.com/dpos/@legendx/dpos)
 * [DPOS委托权益证明 vs POW工作量证明](https://zhuanlan.zhihu.com/p/28127511)
->
-* [相比POS和DPOS，POW更有利于区块链原生代币的价格稳定吗？](https://www.zhihu.com/question/49995385)
+* [区块链核心算法解析] -在读中
 
 
 ### 分布式系统
@@ -120,8 +129,8 @@
 
 ## 大牛谈话
 
-  * [所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-强烈推荐
-  * [一个满是干货的区块链谈话](https://bihu.com/article/247244)
+  * [所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-我们就是这一小撮年轻人,来吧~一起改变世界
+  * [一个满是干货的区块链谈话](https://bihu.com/article/247244) -吐血推荐😄
 
 ----------------
 
@@ -131,7 +140,7 @@
 >
 * [以太坊白皮书](https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
 * [以太坊官网文档中文版](http://book.8btc.com/books/6/ethereum/_book)
-* [<<以太坊技术详解与实战>>]
+* [<<以太坊技术详解与实战>>] -在读中
 >
 * [Teahour 以太坊专访-文字版](http://ethfans.org/shaoping/articles/talk-with-jan-about-ehtereum) - 强烈推荐
 * [智能合约](http://ethfans.org/wikis/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
