@@ -22,7 +22,7 @@
 * [bitcoin 协议说明](https://zh-cn.bitcoin.it/wiki/%E5%8D%8F%E8%AE%AE%E8%AF%B4%E6%98%8E)
 * [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
 * [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
-* [区块链核心技术演进之路-共识机制演进(1)](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
+* [区块链核心技术演进之路-共识机制演进](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
 * [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
 * [前Airbnb工程师：如何零基础猥琐发育成区块链开发者？](https://bihu.com/article/68269)
 
@@ -50,7 +50,7 @@
 * [Merkle Tree 学习](http://www.cnblogs.com/fengzhiwu/p/5524324.html)
 * [谈谈以太坊的Merkle树](http://www.8btc.com/merkling-in-ethereum) / [Merkling in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum) - Vitalik Buterin
 
-### Merkle Patricia Tree - 梅克尔帕特里夏树 (Ethereum)
+### Merkle Patricia Tree - 梅克尔帕特里夏树
 
 * [Understanding the Ethereum Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie) - Ethereum 推荐
 * [Ethereum Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree) - Ethereum Wiki
@@ -103,7 +103,7 @@
 
   * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
 
-  * [ 现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
+  * [现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
 
 
 ### Token
