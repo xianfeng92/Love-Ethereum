@@ -40,6 +40,11 @@
 *  阅读和整理Frontie中推荐的内容,针对每一个推荐给出自己的reason
 
 
+# 参与贡献
+
+区块链技术自身仍在快速发展中，生态环境也在蓬勃成长。欢迎 *[参与维护项目](https://github.com/xianfeng92/Love-Ethereum)。
+
+
 
 
 
