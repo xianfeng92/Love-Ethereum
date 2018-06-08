@@ -8,9 +8,14 @@
 
 ## 基础知识
 
+### 书籍
+
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 强烈推荐
 * [<<区块链：从数字货币到信用社会>>](http://book.8btc.com/blockchain-credit)
-* [blockchain-demo　演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
+
+###  好文
+
+* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 强烈推荐
 * [区块链理论学习入门指南](https://daimajia.com/2017/08/24/how-to-start-blockchain-learning)
 * [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -强烈推荐
 * [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
@@ -63,7 +68,6 @@
 ### 共识算法介绍
 
 区块链构造的去中心化账本需要解决的首要问题是如何确保不同节点上的账本数据的一致性和正确性,而共识算法正是解决这个问题。
-
 
 
 * [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
