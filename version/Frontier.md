@@ -13,6 +13,10 @@
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 精通比特币,就看它
 * [<<区块链革命>>]  -看看区块链可以给货币、商业和世界带来什么改变
 
+### 区块链技术名词
+
+* [区块链技术名词](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D.md)
+
 ###  直推好文
 
 * [区块链原理最清晰最直观的解释](http://blog.jobbole.com/112551/)- 图文展示区块链结构
