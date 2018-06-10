@@ -54,8 +54,11 @@
 
 ##  Blog推荐
 
+* [以太坊Blog](https://blog.ethereum.org/)
+* [分布式系统Blog](http://blog.kongfy.com/)
 * [区块链技术漫谈](http://blockchaindev.org/) -文章质量还是不错的,可惜现在不更新了
 * [小专栏-区块链技术](https://xiaozhuanlan.com/blockchaincore)
+* [Blockchain 区块链 - 学习资源](https://juejin.im/entry/5a616a79f265da3e49801ea0) -掘金上的关于区块链学习资源的文章,可以看看
 
 
 
