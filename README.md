@@ -58,7 +58,7 @@
 那么开始吧～
 
 
-关于以太坊的学习从*[Frontier.md](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)开始吧!
+关于以太坊的学习从[Frontier.md](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)开始吧!
 
 
 
