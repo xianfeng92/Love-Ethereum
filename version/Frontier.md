@@ -10,6 +10,7 @@
 
 ### 书籍
 
+* [<易懂的比特币工作机理详解>](https://github.com/xianfeng92/Love-Ethereum/blob/master/book/%E6%98%93%E6%87%82%E7%9A%84%E6%AF%94%E7%89%B9%E5%B8%81%E5%B7%A5%E4%BD%9C%E6%9C%BA%E7%90%86%E8%AF%A6%E8%A7%A3.pdf) -浅显易懂,适合入门
 * [<<精通比特币>>](http://book.8btc.com/books/1/master_bitcoin/_book) - 精通比特币,就看它
 * [<<区块链革命>>]  -看看区块链可以给货币、商业和世界带来什么改变
 
