@@ -131,6 +131,9 @@
 
 ### Token
 
+* [志顶科技王玮：如何设计一个通证经济体系](https://www.jutuilian.com/article-6778-1.html)
+* [Token经济本质是高维经济](https://www.leiphone.com/news/201803/OfK3hkmZGNxPjZ8G.html)
+* [一套正确认识 token 的思维工具](https://ethfans.org/posts/the-token-classification-framework)
 
 
 ----------------
