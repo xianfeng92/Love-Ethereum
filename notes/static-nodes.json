@@ -1,0 +1,7 @@
+[
+
+"enode://< node1 public key >@< node1 IP address >:< node1 port >",
+
+"enode://< node2 public key >@< node2 IP address >:< node2 port >",
+
+]
