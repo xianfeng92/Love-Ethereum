@@ -352,6 +352,7 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 * [以太坊Casper项目](https://github.com/xianfeng92/casper)
 * [科普 | 什么是以太坊Casper协议？](https://ethfans.org/posts/ethereum-casper)
+* [如果你想变成 Casper PoS/分片的验证者](https://ethfans.org/posts/you-want-to-be-casper-sharding-validator)
 
 ### Sharding
 
