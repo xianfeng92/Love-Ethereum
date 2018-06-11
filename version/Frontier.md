@@ -281,6 +281,7 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 * [以太坊白皮书](https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
 * [以太坊官网文档中文版](http://book.8btc.com/books/6/ethereum/_book)
 * [<<以太坊技术详解与实战>>] -在读中
+* [自己动手部署以太坊联盟链](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E9%83%A8%E7%BD%B2%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%81%94%E7%9B%9F%E9%93%BE.md)
 >
 * [Teahour 以太坊专访-文字版](http://ethfans.org/shaoping/articles/talk-with-jan-about-ehtereum) - 强烈推荐
 * [智能合约](http://ethfans.org/wikis/%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6)
