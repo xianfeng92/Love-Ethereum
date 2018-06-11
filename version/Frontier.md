@@ -352,11 +352,14 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 * [以太坊Casper项目](https://github.com/xianfeng92/casper)
 * [科普 | 什么是以太坊Casper协议？](https://ethfans.org/posts/ethereum-casper)
-* [如果你想变成 Casper PoS/分片的验证者](https://ethfans.org/posts/you-want-to-be-casper-sharding-validator)
+* [如果你想变成 Casper PoS/分片的验证者](https://ethfans.org/posts/you-want-to-be-casper-sharding-validator) -Vitalik 在 2018 以太坊技术及应用大会上的演讲内容
 
 ### Sharding
 
- 分片优化主要用于加快交易验证的速度.
+ 整体来讲，如何提高一个单链区块链的tps性能就是__并行化__和__适当中心化__。并行化得一个思路就是分片sharding, 分片主要用于加快交易验证的速度。
+
+* [图文详解以太坊的节点和分片](http://8btc.com/thread-169987-1-1.html)
+* [以太坊分片：overview and finality](https://cloud.tencent.com/developer/article/1021579)
 
 
 ----------------
