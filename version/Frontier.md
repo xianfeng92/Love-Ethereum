@@ -378,6 +378,12 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 * [Collection your favorite NBA All-Star](https://github.com/xianfeng92/NBASTAR)
 * [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
 
+### Solidity
+
+Solidity是一种用于编写智能合约的高级语言，语法类似于JavaScript。在以太坊平台上，Solidity编写的智能合约可以被编译成字节码在以太坊虚拟机上运行。使用Solidity语言编写智能合约避免了直接编写底层的以太坊虚拟机代码，提高了编码效率，同时该语言也具有更好的可读性。
+
+* [Solidity简介](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/Solidity.md)
+
 ----------------
 
 ## The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
