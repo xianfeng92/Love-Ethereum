@@ -223,16 +223,233 @@ Solidity包含一些内置单位、全局变量和函数以供使用。
 
 ## 与合约相关的变量和函数
 
-* this：指代当前的合约，可以转换为地址类型
+* this：__指代当前的合约，可以转换为地址类型__
 
-* selfdestruct（address recipient）：销毁当前合约，并且将全部的以太币余额转账到作为参数传入的地址
+* selfdestruct（address recipient）：__销毁当前合约，并且将全部的以太币余额转账到作为参数传入的地址recipient中__
 
 
 ## 函数
 
 在Solidity中，一个函数可以有多个参数，同时也可以有多个返回值，如果没有对返回值进行赋值，默认值为0。
 
+函数调用分为两种情况，一种是__调用同一合约中的函数，这种调用叫做内部调用__；另外一种为__调用其他合约实例的方法，这种调用称为外部调用__。
 
+
+contract SimpleContract {
+
+function calculate(uint a, uint b) returns (uint sum, uint product){
+
+sum = a + b;
+
+product = a * b;
+
+ }
+
+}
+
+
+在合约内部如foo（a，b）这样就可以发起一个内部调用，其中foo是函数名，a、b是传递的参数。内部调用对应EVM指令集中的JUMP指令，所以是非常高效的，在此期间内存不会被回收。
+
+函数的外部调用会创建一个消息发送给被调用的合约，如this.a（）或者foo.bar（）这样调用外部的合约函数，这里foo是一个合约的实例。对其他合约函数的调用必须是外部调用，外部调用会将函数调用的所有参数都保存到内存中。注意，在构造函数中不能通过this调用函数，因为此时合约实例还未创建完成。
+
+在调用一个外部函数时，我们可以像下面代码这样通过value和gas指定__转账的以太币和Gas的数量__。对于funding.donate.value（10）.gas（800）（），其中funding是一个合约的实例，donate是想要调用的函数，value指定通过这个函数调用转账10单位wei，gas指定Gas数量，最后一个括号进行函数调用。注意，__Funding（addr）进行了一个显式类型转换，表示我们知道这个地址对应的合约是Funding__，在这个过程中不会调用构造函数。
+
+
+contract Funding {
+
+function donate() payable {}
+
+}
+
+contract Donator {
+
+Funding funding;
+
+function setFunding(address addr) { funding = Funding(addr); }
+
+function callDonate() { funding.danate.value(10).gas(800)(); }
+
+}
+
+
+在以下几种情况下将会抛出异常：①调用的合约不存在；②被调用的不是一个合约账户，即该账户不包括代码；③被调用的函数抛出了异常；④调用过程中Gas耗尽。
+
+
+有时，我们并不希望某一些函数可以被外部其他合约调用，Solidity提供了4种可见性修饰词用于修改函数和变量的可见性，分别为external、public、internal、private。函数的默认属性为public，状态变量的默认属性为internal，并且不可设置为external。
+
+
+1）external：用于修饰函数，表示函数为一个外部函数，外部函数是合约接口的一部分，这意味着__只能通过其他合约发送交易的方式调用外部函数__。
+
+2）public：用来修饰公开的函数/变量，表明该函数/变量既可以在合约外部访问，也可以在合约内部访问。
+
+3）internal：内部函数/变量，表示__只能在当前合约或者继承自当前合约的其他合约中访问__。
+
+4）private：私有函数和变量，__只有当前合约内部才可以访问__。
+
+
+__可见性只限制了其他合约的访问权限，但是因为所有区块链数据都是以公开透明的方式存储的，外部观察者可以看到所有的合约数据__。
+
+
+
+## constant函数和fallback函数
+
+在声明一个函数时，可以像下面这样使用constant或者view关键字告诉编译器这个函数进行的是只读操作，不会造成其他状态变化。
+
+contract SimpleContract {
+
+function f(uint a, uint b) view returns (uint) {
+
+return a * (b + 42) + now;
+
+ }
+}
+
+造成状态变化的语句包括：修改变量的值、触发事件、创建其他合约、调用任何非constant函数等。
+
+
+__在合约中，有一个默认隐式存在的函数叫做fallback函数__。fallback函数不能接受任何参数并且不能拥有返回值。当一个合约收到无法匹配任何函数名的函数调用或者仅仅用于转账的交易时，fallback函数将会被自动执行，默认的行为是抛出异常。
+
+在Solidity 0.4.0以后的版本中，如果我们想让合约以简单的Transfer方式进行以太币转账，则需要像“function（）payable{}”这样实现fallback函数，给函数加上payable修饰词。
+
+contract Test {
+
+// 这个合约收到任何函数调用都会触发fallback函数（因为没有其他函数）
+
+// 向这个合约发送以太币会触发异常，因为fallback函数没有payable修饰词
+
+function() { x = 1; }
+
+uint x;
+
+}
+
+contract Caller {
+
+function callTest(Test test) {
+
+test.call(0xabcdef01); // 对应的函数不存在
+
+// 触发test的fallback函数，导致test.x的值变为1
+
+// 下面这句话不会通过编译
+
+// 即使某个交易向test发送了以太币，也会触发异常并且退回以太币
+
+//test.send(2 ether);
+
+ }
+}
+
+当手动实现fallback函数时，需要特别注意Gas消耗，因为fallback函数只拥有非常少的Gas（2300Gas）。比起fallback函数的Gas限制，一个触发了fallback函数的交易会消耗更多的Gas，因为大约有21000或者更多的Gas会用于签名验证等过程。
+
+
+## 函数修改器
+
+函数修改器与Python中的装饰器类似，可以在一定程度上改变函数的行为，比如可以在函数执行前自动检查参数是否合法。函数修改器可以被继承，也可以被派生类覆盖重写。
+
+下面代码展示了如何声明并使用函数修改器。
+
+contract owned {
+
+function owned() { owner = msg.sender; }
+
+address owner;
+
+// 这个合约定义了一个在派生合约中使用的函数修改器
+
+// "_;" 指代被修改函数的函数体
+
+// 在这个函数执行前，先检查msg.sender是否是合约创建者
+
+// 如果不是就会抛出异常
+
+modifier onlyOwner {
+
+require(msg.sender == owner);
+
+_;
+
+}
+
+}
+
+contract Contract is owned {
+
+// 从owned合约继承了onlyOwner函数修改器并且将其作用于close函数
+
+// 确保了这个函数只有在调用者为合约创建者时才会生效
+
+function close() onlyOwner { selfdestruct(owner); }
+
+}
+
+
+
+## 异常处理
+
+__太坊使用状态回退机制处理异常__。如果发生了异常，当前消息调用和子消息调用产生的所有状态变化都将被撤销并且返回调用者一个报错信号。
+
+Solidity语言提供了两个函数assert和require来检查条件，并且当条件不满足的时候抛出一个异常。__assert函数通常用于检查变量和内部错误，require函数用于确保程序执行的必要条件是成立的__。一个正常运行的程序不应该遇到assert和require失败，否则程序代码中一定存在需要修复的问题。
+
+
+下面的例子展示了如何使用assert和require确保程序正确运行。
+
+
+contract AssertExample {
+
+function sendHalf(address addr) payable returns (uint balance) {
+
+require(msg.value % 2 == 0); // 只允许偶数
+
+uint balanceBeforeTransfer = this.balance;
+
+addr.transfer(msg.value / 2);
+
+// 使用assert确保transfer转账成功，否则抛出异常
+
+assert(this.balance == balanceBeforeTransfer - msg.value / 2);
+
+return this.balance;
+
+}
+}
+
+
+## 事件和日志
+
+事件使用了EVM内置日志功能，以太坊客户端可以使用JavaScript的回调函数监听事件。当事件触发时，会将事件及其参数存储到以太坊的日志中，并与合约账户绑定。以太坊的日志是与区块相关的，只要区块可以访问则日志会一直存在。日志无法在合约中访问，即使是创建该日志的合约。
+
+以下代码创建了一个含有事件的合约。
+
+contract Funding {
+
+event Deposit(
+
+address indexed _from,
+
+bytes32 indexed _id,
+
+uint _value
+
+);
+
+function deposit(bytes32 _id) payable {
+
+// 在JavaScript API中过滤Deposit事件
+
+// 每次该函数的调用都可以被监听到
+
+Deposit(msg.sender, _id, msg.value);
+
+ }
+
+}
+
+
+## 智能合约的继承
+
+
+Solidity支持继承与多重继承，它的继承系统与Python很像，尤其是在多重继承方面。值得注意的是，__当一个通过继承产生的合约被部署到区块链上时，实际上区块链上只创建了一个合约，所有基类合约的代码都会在子类合约中有一份拷贝__。
 
 
 
