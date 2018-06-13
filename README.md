@@ -17,9 +17,9 @@
 对我而言,区块链的共识有以下两层含义:
 
 *  维护和保持p2p网络节点状态信息的一致性
-*  区块链技术的认知的一致性
+*  大众对区块链精神的认知
 
-这个 Love-Ethereum 项目就是想让更多的人全面的了解和认识区块链技术. Ethereum　是区块链2.0的代表,很值得大家去学习和研究。整个项目会为不同人群设计不同的学习版本，详情见下面的版本说明。
+这个 Love-Ethereum 项目就是想让更多的人全面的了解和认识区块链技术。整个项目会针对不同人群设计不同的学习版本，详情见下面的版本说明。
 
 ------------------------------------------------------------------------------------------
 
@@ -73,7 +73,7 @@
 
 # Project progress
 
-*  阅读和整理区块链资料, 正在制作Frontier版
+* 阅读和整理区块链资料, 正在制作Frontier版
 
 　　Frontier初期，需要阅读和整理很多资料。考虑到学习的逻辑性，对Frontier的框架也会做相应调整，这不是对学习资料的堆砌，会为每一个阅读者负责。本周计划完成Frontier初稿版。
 
@@ -85,10 +85,16 @@
 # 大事件
 
 ## 6月10号EOS主网成功上线
-       
-      区块链家族中又增添一个优秀的项目
       
       未来已来,只是尚未流行!
+
+这里引用EOS官方的话：
+
+Finally, the moment we have all been working for. After nearly a year long development process and community involvement, we have lift-off! The ideas on a whitepaper are brought to life thanks to all the contribution by a large community of well-wishers!
+Together we present EOS, a crypto-economic solution for securing life, liberty, property, and justice for all. Along with other crypto platforms we move toward the same end goal: minimizing corruption and maximizing freedom in society.
+
+"The greatness of a community is most accurately measured by the compassionate actions of its members." 
+- Coretta Scott King」
 
 --------------------------------------------------------------------------------------------
 
