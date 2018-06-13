@@ -167,6 +167,16 @@ contract TokenLBJ {
     }
 
     /**
+     *批量转帐固定金额
+    /
+    function batchTransfer(address[] _to, uint _value) public{
+        require(address.length > 0)
+        for(uint i=0 ; i< address.length; i++){
+           _transfer(msg.sender,address[i], _value);
+         }
+    }
+
+    /**
 　　　　　* Transfer tokens from other address
      * Send '_value' tokens to '_to' on behalf of '_from'
      * @param _from 发送者地址
