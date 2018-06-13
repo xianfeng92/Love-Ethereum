@@ -52,10 +52,10 @@
 
 
 
-目前，只做了Frontier和Homestead版本, 在内容和框架方面还是有不少问题，后面会不断的迭代，希望最终会成为一个优秀的以太坊的学习框架.
+目前，只做了Frontier和Homestead版本, 在内容和框架方面还是有不少问题，后面会不断的迭代，希望最终会成为一个优秀的以太坊的学习框架。
 
 
-欢迎区块链技术爱好者或者想要学习区块链技术的朋友一起加入进来, 一起学习和完善这个项目.
+欢迎区块链技术爱好者或者想要学习区块链技术的朋友一起加入进来, 一起学习和完善这个项目。希望最终可以打通一条从区块链核心技术到实际开发应用的学习之路。
 
 
 ------------------------------------------------------------------------------------------
@@ -91,7 +91,8 @@ Finally, the moment we have all been working for. After nearly a year long devel
 Together we present EOS, a crypto-economic solution for securing life, liberty, property, and justice for all. Along with other crypto platforms we move toward the same end goal: minimizing corruption and maximizing freedom in society.
 
 "The greatness of a community is most accurately measured by the compassionate actions of its members." 
-- Coretta Scott King」
+
+- Coretta Scott King
 
 --------------------------------------------------------------------------------------------
 
