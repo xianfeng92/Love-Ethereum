@@ -86,7 +86,7 @@ MUST trigger on any successful call to approve(address _spender, uint256 _value)
 
 # 代币合约实例
 
-下面是一个　token 合约的例子，可以直接复制到remix进行合约部署的。
+下面是一个 token 合约的例子，可以直接复制到remix进行合约部署的。
 
 事先说明两点：
 
@@ -124,7 +124,7 @@ contract TokenLBJ {
     /**
      * 初始化构造，初始化后代币全部存储于合约创建者账户
      */
-    function TokenERC20(uint256 initialSupply, string tokenName, string tokenSymbol) public {
+    function TokenLBJ(uint256 initialSupply, string tokenName, string tokenSymbol) public {
         totalSupply = initialSupply * 10 ** uint256(decimals);  // 供应的份额，份额跟最小的代币单位有关，份额 = 币数 * 10 ** decimals
         balanceOf[msg.sender] = totalSupply;                // 创建者拥有所有的代币
         name = tokenName;                                   // 代币名称
@@ -257,5 +257,110 @@ contract TokenLBJ {
     }
 }
 
+
+# 给代币增加可管理、增发、兑换、冻结等功能
+
+
+contract owned{
+  
+   address public owner;
+   
+   function owned(){
+        owner = msg.sender;
+    }
+
+　　　//
+   modifier onlyOwner {
+        require(msg.sender == owner);
+        _;
+      }
+
+   function transferOwnership(address newOwner) onlyOwner{
+        owner = newOwner;
+     }
+ }
+
+该合约中加入了一个函数修改器（Function Modifiers）onlyOwner，函数修改器是一个合约属性，可以被继承，还能被重写。它用于在函数执行前检查某种前置条件。
+
+此时让TokenLBJ继承owned，使其拥有onlyOwner修改器。
+
+## 代币增发
+
+
+function mintToken(address target, uint256 mintedAmount) onlyOwner{
+
+      balanceof[target] += mintedAmount;
+      totalSupply += mintedAmount;
+      Transfer(0,owner,mintedAmount);
+      Transfer(owner, target, mintedAmount);
+ }
+
+注意onlyOwner修改器添加在函数末尾，这表示只有ower才能调用这用函数。他的功能很简单，就是给指定的账户增加代币，同时增加总供应量。
+
+## 资产冻结
+
+有时为了监管的需要，需要实现冻结某些账户，冻结后，其资产仍在账户，但是不允许交易，直到解除冻结。给合约添加以下的变量和方法（可以添加到合约的任何地方，但是建议把mapping加到和其他mapping一起，event也是如此）：
+
+mapping(address => bool) public frozenAccount;
+
+event FrozenFunds(address target, bool frozen);
+
+function　freezeAccount(address target, bool freeze)　onlyOwner {
+    frozenAccount[target] = freeze;
+    FrozenFunds(target, freeze);
+ }
+
+单单以上的代码还无法冻结，需要把他加入到transfer函数中才能真正生效，因此修改transfer函数。
+
+function transfer(address _to, uint256 _value){
+    
+    require(!frozenAccount[msg.sender])
+    ...
+ }
+
+这样在转账前，对发起交易的账号做一次检查，只有没被冻结的账号才能转账。
+
+
+## 代币买卖（兑换）
+
+可以自己的货币中实现代币与其他数字货币（ether 或其他tokens）的兑换机制。有了这个功能，我们的合约就可以在一买一卖中赚利润了。
+
+先来设置下买卖价格:
+
+uint256 public sellPrice;
+uint256 public buyPrice;
+
+function setPrice (uint256 newSellPrice, uint256 newBuyPrice) onlyOwner{
+      sellPrice = newSellPrice;
+      buyPrice = newBuyPrice;
+  }
+
+
+setPrices()添加了onlyOwner修改器，注意买卖的价格单位是wei（最小的货币单位： 1 eth = 1000000000000000000 wei)。
+
+添加买卖函数:
+
+function buy() payable returns (uint amount){
+   
+   amount = msg.value / buyPrice;
+   require(balanceof[this] >= amount);
+   balanceof[msg.sender] += amount;
+   balanceof[this] -= amount;
+   Transfer(this, msg.sender,amount);
+   return amount;
+ }
+
+function sell(uint amount) payable returns (uint revenue){
+
+   require(balanceof[msg.sender] >= amount);
+   balanceof[this] += amount;
+   balanceof[msg.sender] -= amount;
+   revenue = amount * sellPrice;
+   msg.sender.transfer(revenue);
+   Transfer(msg.sender, this, amount);
+   return revenue;
+ }
+
+加入了买卖功能后，要求我们在创建合约时发送足够的以太币，以便合约有能力回购市面上的代币，否则合约将破产，用户没法先合约卖代币。
 
 参考:[Create your own crypto-currency](https://ethereum.org/token)
