@@ -70,7 +70,7 @@
 
 关于区块链，从一个故事[Frontier.md](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)开始吧!
 
-对区块链技术已有了解之间从这里[Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)开始吧!
+对区块链技术已有所了解从这里[Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)开始吧!
 
 
 -------------------------------------------------------------------------------------------
@@ -81,6 +81,7 @@
 * 阅读和整理区块链资料, 正在制作Frontier和Homestead版
 
 　　项目初期，需要阅读和整理很多资料。考虑到学习的逻辑性，对Frontier的框架也会做相应调整，这不是对学习资料的堆砌，会为每一个阅读者负责。本周计划完成Frontier初稿版。
+　　
 　　已完成Frontier版本,目前正在以太坊私有链上测试和部署 LBJ Token的功能.
 
 
