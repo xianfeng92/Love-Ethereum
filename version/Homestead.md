@@ -197,6 +197,14 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
   * [现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
 
 
+## P2P网络
+
+### 节点通信（TCP/IP）
+
+
+### 比特币网络
+
+
 
 ### Token
 
