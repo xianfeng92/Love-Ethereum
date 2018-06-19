@@ -16,6 +16,7 @@
 14:33:24.757275 version@stat F·[1] S·23KiB[23KiB] Sc·[0.25]
 14:33:24.812334 db@janitor F·3 G·0
 14:33:24.812376 db@open done T·118.869431ms
+<<<<<<< Updated upstream
 =============== Jun 16, 2018 (CST) ===============
 07:59:57.659661 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
 07:59:57.660614 version@stat F·[1] S·23KiB[23KiB] Sc·[0.25]
@@ -26,3 +27,32 @@
 07:59:57.678328 version@stat F·[2] S·24KiB[24KiB] Sc·[0.50]
 07:59:57.679457 db@janitor F·4 G·0
 07:59:57.679495 db@open done T·18.826269ms
+=======
+=============== Jun 15, 2018 (CST) ===============
+14:45:46.568177 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+14:45:46.568321 version@stat F·[1] S·23KiB[23KiB] Sc·[0.25]
+14:45:46.568329 db@open opening
+14:45:46.568355 journal@recovery F·1
+14:45:46.570047 journal@recovery recovering @3
+14:45:46.625883 memdb@flush created L0@5 N·3 S·417B "Dat..ion,v260":"eth..Oͱ,v259"
+14:45:46.638023 version@stat F·[2] S·24KiB[24KiB] Sc·[0.50]
+14:45:46.693051 db@janitor F·4 G·0
+14:45:46.693085 db@open done T·124.738819ms
+=============== Jun 15, 2018 (CST) ===============
+17:09:21.683113 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+17:09:21.683271 version@stat F·[2] S·24KiB[24KiB] Sc·[0.50]
+17:09:21.683278 db@open opening
+17:09:21.683306 journal@recovery F·1
+17:09:21.684980 journal@recovery recovering @6
+17:09:21.715654 memdb@flush created L0@8 N·213 S·17KiB "Dat..ion,v264":"r\x00\x00..^S\xcb,v470"
+17:09:21.729149 version@stat F·[3] S·41KiB[41KiB] Sc·[0.75]
+17:09:21.774584 db@janitor F·5 G·0
+17:09:21.774608 db@open done T·91.323207ms
+17:09:21.780679 table@compaction L0·3 -> L1·0 S·41KiB Q·479
+17:09:21.824729 table@build created L1@11 N·346 S·39KiB "\x01\x9f#..-7\xef,v243":"\xf5\t\x06..Rnb,v256"
+17:09:21.824792 version@stat F·[0 1] S·39KiB[0B 39KiB] Sc·[0.00 0.00]
+17:09:21.866826 table@compaction committed F-2 S-2KiB Ke·0 D·127 T·86.107235ms
+17:09:21.866897 table@remove removed @8
+17:09:21.866927 table@remove removed @5
+17:09:21.866952 table@remove removed @2
+>>>>>>> Stashed changes
