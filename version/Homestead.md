@@ -401,6 +401,7 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 * [区块和交易，合约和虚拟机](https://blog.csdn.net/teaspring/article/details/75389151)
 * [数据的呈现和组织，缓存和更新](https://blog.csdn.net/teaspring/article/details/75390210)
 * [挖矿和共识算法的奥秘](https://blog.csdn.net/teaspring/article/details/78050274)
+* [Clique共识算法](https://ethfans.org/posts/Clique-Consensus-Algorithm)
 
 _______________　
 
