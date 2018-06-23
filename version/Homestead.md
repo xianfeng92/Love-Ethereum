@@ -340,6 +340,8 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 ## 相关文章
 
+* [王峰十问之以太坊VM 英文原话](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E7%8E%8B%E5%B3%B0%E5%8D%81%E9%97%AEVM.md)
+
 * [自己动手部署以太坊联盟链](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E9%83%A8%E7%BD%B2%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%81%94%E7%9B%9F%E9%93%BE.md)
 
 >
