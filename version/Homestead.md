@@ -1,222 +1,12 @@
-# Love-Ethereum
+# Homestead
 
-----------------
 
-# 😊区块链基础
-
----------------
-
-## 基础知识
-
-### 书籍
-
-* [<<易懂的比特币工作机理详解>>](https://github.com/xianfeng92/Love-Ethereum/blob/master/book/%E6%98%93%E6%87%82%E7%9A%84%E6%AF%94%E7%89%B9%E5%B8%81%E5%B7%A5%E4%BD%9C%E6%9C%BA%E7%90%86%E8%AF%A6%E8%A7%A3.pdf) -浅显易懂,适合入门
-* [<<精通比特币>>](https://github.com/xianfeng92/Love-Ethereum/blob/master/book/master_bitcoins.pdf) - 精通比特币,就看它
-* [<<区块链革命>>]  -看看区块链可以给货币、商业和世界带来什么改变
-
-### 区块链技术名词
-
-* [区块链技术名词](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E5%8C%BA%E5%9D%97%E9%93%BE%E6%8A%80%E6%9C%AF%E5%90%8D%E8%AF%8D.md)
-
-###  相关文章
-
-* [区块链原理最清晰最直观的解释](http://blog.jobbole.com/112551/)- 图文展示区块链结构
-* [区块链在线演示版本](https://blockchaindemo.io/) - 在线演示区块链
-* [blockchain-demo 演示区块链的原理](https://github.com/xianfeng92/blockchain-demo) - 自己搭建环境去演示区块链结构
-* [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -从生活中的例子出发去理解区块链到底解决了什么问题
-* [不谈抽象的概念,到底如何从技术角度理解区块链?](http://www.sohu.com/a/115655724_116235) - 从生活和技术上去理解区块链,写的真好
-* [区块链应用的去中心化——一个乌托邦](http://blockchaindev.org/talk/decentralized-blockchain-applications-are-utopia.html) -关于中心和去中心化写的很棒
-* [区块链核心技术演进之路－算法演进](http://www.8btc.com/blockchain-tech-algorithm) - 强烈推荐
-* [区块链核心技术演进之路－挖矿演进](http://www.8btc.com/blockchain-tech-mining) - 强烈推荐
-* [区块链核心技术演进之路-共识机制演进](http://www.8btc.com/blockchain-tech-consensus-mechanism) - 强烈推荐
-* [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
-* [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
-* [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
-* [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
-
------------------
-
-## 白皮书
-
-* [比特币白皮书：一种点对点的电子现金系统](http://www.8btc.com/wiki/bitcoin-a-peer-to-peer-electronic-cash-system)
-* [（大鱼）精读比特币白皮书系列（1-6）](https://www.jianshu.com/p/ca0c0a0e0faa)
-
------------------
-
-## 社区推荐
-
-* [巴比特](http://www.8btc.com/) -巴比特里面还是有很多高水平的文章,毕竟属于国内较早的区块链社区
-* [Ethfans](http://ethfans.org/) -主要是翻译一些国外关于以太坊方面高质量的文章
-* [区块链大学](https://www.qkldx.net/) - 里面有很多区块链技术方面的文章
-
-
-----------------
-
-##  Blog推荐
-
-* [以太坊Blog](https://blog.ethereum.org/)
-* [分布式系统Blog](http://blog.kongfy.com/)
-* [区块链技术漫谈](http://blockchaindev.org/) -文章质量还是不错的,可惜现在不更新了
-* [小专栏-区块链技术](https://xiaozhuanlan.com/blockchaincore)
-* [Blockchain 区块链 - 学习资源](https://juejin.im/entry/5a616a79f265da3e49801ea0) -掘金上的关于区块链学习资源的文章,可以看看
-
-
-----------------
-
-## 重要技术点
-
-### Merkle Tree - 梅克尔树
-
-* [Merkle Tree 学习](http://www.cnblogs.com/fengzhiwu/p/5524324.html)
-* [谈谈以太坊的Merkle树](http://www.8btc.com/merkling-in-ethereum) / [Merkling in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum) - Vitalik Buterin
-
-### Merkle Patricia Tree - 梅克尔帕特里夏树
-
-* [Understanding the Ethereum Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie) - Ethereum 推荐
-* [Ethereum Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree) - Ethereum Wiki
->
-* [深入浅出以太坊MPT (Merkle Patricia Tree) ](http://blog.csdn.net/qq_33935254/article/details/55505472)
-* [Merkle Patricia Tree (MPT) 以太坊merkle技术分析](http://blog.csdn.net/zslomo/article/details/53434883?t=1498537389197)
-* [Merkle Patricia Tree (MPT) 详解](http://www.cnblogs.com/fengzhiwu/p/5584809.html)
->
-* [Ethereum RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) - Ethereum Wiki
-* [RLP编码原理](https://my.oschina.net/u/2349981/blog/894117)
-
-### 共识算法介绍
-
-区块链构造的去中心化账本需要解决的首要问题是如何确保不同节点上的账本数据的一致性和正确性,而共识算法正是解决这个问题。
-
-
-#### 经典的共识算法
-
-[几种经典共识算法分析](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/ConsensusAlgorithm.md)
-
-#### POW
-
-Pow即通过工作结果来证明你完成了相应的工作. 其工作工程是繁琐而低效的,而对工作结果的验证确实很容易的.比如: 我们可以用一份高考成绩单来衡量一个学生在高中三年中各学科的学习情况.Pow的目的是使得区块的创建变的困难,从而阻止“女巫“攻击者恶意重新生成区块链.
-
-一般加密货币的Pow算法可以描述如下:
-
-* 节点打包经过验证的交易
-
-* 不断地更换随机数来探寻合适的散列值(该散列值小于系统提供的指定散列值)
-
-* 当节点计算出合适的散列值时, 如果其打包的快通过了其他共识节点的验证,则会被加入到区块链中.
-
-
-节点想要计算出合适的散列值需要经过大量的散列计算, 计算时间则取决于机器的散列速度.所以一般矿机的性能越好,其成功计算出合适的散列值的概率就会越大.
-
-
-#### Pos
-
-Pos是基于网络参与者目前所持有的数字货币的数量和时间进行利益分配, 是一种对货币所有权的证明. 
-
-
-在以太坊中, Pos 算法可以描述如下:
-
-* 以太坊区块链由一组验证着决定, 任何持有以太币的用户都能发出一笔特殊的交易, 将他们的以太币锁定在一个存储中, 从而是自己成为验证者
-
-* 然后, 通过一个当前验证者都能参与的共识算法, 完成新区块的产生和验证过程.
-
-验证者参与的共识算法有哪些? 
-
-*  基于链的Pos
-    
-    该算法中在每个时间单位(比如说 10s )内伪随机地从验证者集合中选择一个验证者, 给予这个验证者创建新区块的权利, 但是该验证者要保证其所产生的块是在最长链上.
-    
-
-*  基于BFT的Pos
-
-   让每个验证者自己去提出块并给被提出的块投票, 该投票过程使用的BFT算法. 最后, 被BFT算法所确定出来的块将会被添加到区块链上.
-
-
-在Pos中对“胡乱”投票的行为会给予惩罚:
-
-* Slasher
-   
-   如果验证者在不同的链上创建块, 则在事后会将其行为记录在区块链上, 并扣除其押金.
-   
-* Casper
-
-  Casper有可能做到秒级别的共识, Casper中有很多抵押了一定代币的验证者, 这些验证者对新块进行投票已决定它是否有效, 最后根据投票的结果形成大多数人的意见. 投票新块有效的用户会获得奖励, 而作恶用户将会被没收押金。
-
-  
-#### 相关文章
-
-* [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
-* [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
-* [什么是区块链共识？](http://8btc.com/article-2238-1.html)
-* [区块链共识机制浅谈](http://blog.csdn.net/jeffrey__zhou/article/details/56672948)
-* [区块链共识机制有哪些？](https://www.zhihu.com/question/53385152)
->
-* [微信PaxosStore：深入浅出Paxos算法协议](http://www.infoq.com/cn/articles/wechat-paxosstore-paxos-algorithm-protocol)
-* [Raft 一致性算法论文译文](http://www.infoq.com/cn/articles/raft-paper)
->
-* [POS白皮书：基于权益证明的交易](https://yq.aliyun.com/articles/60400)
-* [深度解析POS和POW的区别](http://8btc.com/article-1882-1.html)
->
-* [DPOS共识算法-by BM](http://me.tryblockchain.org/blockchain-dpos-bm-eos.html) -强烈推荐
-* [DPOS——回归中本聪](http://www.8btc.com/dpos-back-to-satoshi)
-* [信息图：股份授权证明机制（DPOS）](http://www.8btc.com/dpossha)
-* [DPOS共识算法 -- 缺失的白皮书](https://steemit.com/dpos/@legendx/dpos)
-* [DPOS委托权益证明 vs POW工作量证明](https://zhuanlan.zhihu.com/p/28127511)
-* [区块链核心算法解析] -在读中
-
-
-### 密码学
-
- 区块链的密码学算法为区块的生成,交易的传输等进行加密.
-
-
-### 经济学
-
-  * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
-
-  * [现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
-
-
-## P2P网络
-
-* [P2P技术是什么](https://shuwoom.com/?p=721)
-* [详解区块链P2P网络](https://keeganlee.me/post/blockchain/20180313)
-* [P2P对等网络原理与应用](https://github.com/xianfeng92/Love-Ethereum/blob/master/p2p/P2P%E5%AF%B9%E7%AD%89%E7%BD%91%E7%BB%9C%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
-* [KADEMLIA算法学习](https://shuwoom.com/?p=813)
-
-### 节点通信（TCP/IP）
-
-
-### 比特币网络
-
-
-### Token
-
-* [志顶科技王玮：如何设计一个通证经济体系](https://www.jutuilian.com/article-6778-1.html)
-* [Token经济本质是高维经济](https://www.leiphone.com/news/201803/OfK3hkmZGNxPjZ8G.html)
-* [一套正确认识 token 的思维工具](https://ethfans.org/posts/the-token-classification-framework)
-
-
-----------------
-
-
-## 大牛谈话
-
-  * [所有伟大的创新，本质上都是从一小撮年轻人肆无忌惮打破规则开始的](https://ethfans.org/posts/32033)-我们就是这一小撮年轻人,来吧~一起改变世界
-  * [一个满是干货的区块链谈话](https://bihu.com/article/247244) -吐血推荐😄
-
-----------------
-
-
-# Ethereum
-
+-----------------------
 ## 以太坊
 
 区块链通常被定义为去中心的分布式记账系统，该系统中的节点无需互相信任，通过统一的共识机制共同维护一份账本。在前几年，大家会关注比特币而不会单独谈论区块链这个技术。直到2015年，区块链这一概念才被单独提出来为更多人所了解，且向着更广泛的应用场景发展。发生在这个时间点的主要原因之一是以太坊的出现和日益成熟。
 
 简单地说，以太坊是一个有智能合约（Smart Contract）功能的公共区块链平台。用智能手机打个比方，如果说以太坊是智能手机的操作系统，那么智能合约就是上面搭载的应用（App）。有了以太坊，用户可以直接开发自己的区块链应用。
-
-### 相关文章
-
-* [以太坊的网络结构](http://8btc.com/thread-170796-1-1.html)-很基础，适合初学者阅读
 
 
 ### 以太币(ETH)
@@ -313,18 +103,6 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 理论上讲，任意计算复杂度的金融交互过程均可以由智能合约安全、自动地完成。除了金融方面的应用，以太坊平台还可以在如财产登记、投票、智能交通、物联网等任何需要信任、安全和性能兼顾的环境中进行部署和使用。
 
-#### 合约分析
-
-* [ERC-20协议详解](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ERC-20%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.md)
-
-
-
-#### 相关文章
-
-* [以太坊开发入门](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
-* [Solidity 官方文档中文版](http://wiki.jikexueyuan.com/project/solidity-zh/)
-* [区块链技术-智能合约-以太坊（译文）](http://ethfans.org/posts/block-chain-technology-smart-contracts-and-ethereum) - 简单易懂的例子“智能赞助”
-
 
 ### 以太坊虚拟机（EVM）
 
@@ -337,12 +115,12 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 * 二是__EVM的执行结果必须有严格的确定性__，所有节点必须得到同样的运行结果。这就对智能合约以及EVM造成了一定的局限性，智能合约目前仍无法实现一些可能会带来不确定结果的简单操作，如生成随机数、调用操作系统API等，因为这些操作会因时间、系统等执行环境的差异而产生不同的结果，进而使以太坊节点无法对区块中的账户状态达成共识。
 
+### 相关文章
 
-## 相关文章
+* [以太坊的网络结构](http://8btc.com/thread-170796-1-1.html)-很基础，适合初学者阅读
 
 * [王峰十问之以太坊VM 英文原话](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E7%8E%8B%E5%B3%B0%E5%8D%81%E9%97%AEVM.md)
 
-* [自己动手部署以太坊联盟链](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%87%AA%E5%B7%B1%E5%8A%A8%E6%89%8B%E9%83%A8%E7%BD%B2%E4%BB%A5%E5%A4%AA%E5%9D%8A%E8%81%94%E7%9B%9F%E9%93%BE.md)
 
 >
 * [以太坊白皮书](https://ethfans.org/wikis/%E4%BB%A5%E5%A4%AA%E5%9D%8A%E7%99%BD%E7%9A%AE%E4%B9%A6)
@@ -365,6 +143,125 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 
 ## 重要的技术点
 
+### 密码学
+
+ 区块链的密码学算法为区块的生成,交易的传输等进行加密.
+
+
+### 经济学
+
+  * [你对“钱”的认知已经严重落伍了](https://bihu.com/article/530100)-强烈推荐
+
+  * [现代经济中的货币](https://ethfans.org/posts/money-creation-in-modern-economy-part-1) -强烈推荐
+
+
+## P2P网络
+
+* [P2P技术是什么](https://shuwoom.com/?p=721)
+* [详解区块链P2P网络](https://keeganlee.me/post/blockchain/20180313)
+* [P2P对等网络原理与应用](https://github.com/xianfeng92/Love-Ethereum/blob/master/p2p/P2P%E5%AF%B9%E7%AD%89%E7%BD%91%E7%BB%9C%E5%8E%9F%E7%90%86%E4%B8%8E%E5%BA%94%E7%94%A8.pdf)
+* [KADEMLIA算法学习](https://shuwoom.com/?p=813)
+
+### 节点通信（TCP/IP）
+
+
+### Merkle Tree - 梅克尔树
+
+* [Merkle Tree 学习](http://www.cnblogs.com/fengzhiwu/p/5524324.html)
+* [谈谈以太坊的Merkle树](http://www.8btc.com/merkling-in-ethereum) / [Merkling in Ethereum](https://blog.ethereum.org/2015/11/15/merkling-in-ethereum) - Vitalik Buterin
+
+### Merkle Patricia Tree - 梅克尔帕特里夏树
+
+* [Understanding the Ethereum Trie](https://easythereentropy.wordpress.com/2014/06/04/understanding-the-ethereum-trie) - Ethereum 推荐
+* [Ethereum Patricia Tree](https://github.com/ethereum/wiki/wiki/Patricia-Tree) - Ethereum Wiki
+>
+* [深入浅出以太坊MPT (Merkle Patricia Tree) ](http://blog.csdn.net/qq_33935254/article/details/55505472)
+* [Merkle Patricia Tree (MPT) 以太坊merkle技术分析](http://blog.csdn.net/zslomo/article/details/53434883?t=1498537389197)
+* [Merkle Patricia Tree (MPT) 详解](http://www.cnblogs.com/fengzhiwu/p/5584809.html)
+>
+* [Ethereum RLP](https://github.com/ethereum/wiki/wiki/%5B%E4%B8%AD%E6%96%87%5D-RLP) - Ethereum Wiki
+* [RLP编码原理](https://my.oschina.net/u/2349981/blog/894117)
+
+### 共识算法介绍
+
+区块链构造的去中心化账本需要解决的首要问题是如何确保不同节点上的账本数据的一致性和正确性,而共识算法正是解决这个问题。
+
+#### 相关文章
+
+* [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
+* [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
+* [什么是区块链共识？](http://8btc.com/article-2238-1.html)
+* [区块链共识机制浅谈](http://blog.csdn.net/jeffrey__zhou/article/details/56672948)
+* [区块链共识机制有哪些？](https://www.zhihu.com/question/53385152)
+>
+* [微信PaxosStore：深入浅出Paxos算法协议](http://www.infoq.com/cn/articles/wechat-paxosstore-paxos-algorithm-protocol)
+* [Raft 一致性算法论文译文](http://www.infoq.com/cn/articles/raft-paper)
+>
+* [POS白皮书：基于权益证明的交易](https://yq.aliyun.com/articles/60400)
+* [深度解析POS和POW的区别](http://8btc.com/article-1882-1.html)
+>
+* [DPOS共识算法-by BM](http://me.tryblockchain.org/blockchain-dpos-bm-eos.html) -强烈推荐
+* [DPOS——回归中本聪](http://www.8btc.com/dpos-back-to-satoshi)
+* [信息图：股份授权证明机制（DPOS）](http://www.8btc.com/dpossha)
+* [DPOS共识算法 -- 缺失的白皮书](https://steemit.com/dpos/@legendx/dpos)
+* [DPOS委托权益证明 vs POW工作量证明](https://zhuanlan.zhihu.com/p/28127511)
+* [区块链核心算法解析] -在读中
+
+
+#### 经典的共识算法
+
+[几种经典共识算法分析](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/ConsensusAlgorithm.md)
+
+#### POW
+
+Pow即通过工作结果来证明你完成了相应的工作. 其工作工程是繁琐而低效的,而对工作结果的验证确实很容易的.比如: 我们可以用一份高考成绩单来衡量一个学生在高中三年中各学科的学习情况.Pow的目的是使得区块的创建变的困难,从而阻止“女巫“攻击者恶意重新生成区块链.
+
+一般加密货币的Pow算法可以描述如下:
+
+* 节点打包经过验证的交易
+
+* 不断地更换随机数来探寻合适的散列值(该散列值小于系统提供的指定散列值)
+
+* 当节点计算出合适的散列值时, 如果其打包的快通过了其他共识节点的验证,则会被加入到区块链中.
+
+
+节点想要计算出合适的散列值需要经过大量的散列计算, 计算时间则取决于机器的散列速度.所以一般矿机的性能越好,其成功计算出合适的散列值的概率就会越大.
+
+
+#### Pos
+
+Pos是基于网络参与者目前所持有的数字货币的数量和时间进行利益分配, 是一种对货币所有权的证明. 
+
+
+在以太坊中, Pos 算法可以描述如下:
+
+* 以太坊区块链由一组验证着决定, 任何持有以太币的用户都能发出一笔特殊的交易, 将他们的以太币锁定在一个存储中, 从而是自己成为验证者
+
+* 然后, 通过一个当前验证者都能参与的共识算法, 完成新区块的产生和验证过程.
+
+验证者参与的共识算法有哪些? 
+
+*  基于链的Pos
+    
+    该算法中在每个时间单位(比如说 10s )内伪随机地从验证者集合中选择一个验证者, 给予这个验证者创建新区块的权利, 但是该验证者要保证其所产生的块是在最长链上.
+    
+
+*  基于BFT的Pos
+
+   让每个验证者自己去提出块并给被提出的块投票, 该投票过程使用的BFT算法. 最后, 被BFT算法所确定出来的块将会被添加到区块链上.
+
+
+在Pos中对“胡乱”投票的行为会给予惩罚:
+
+* Slasher
+   
+   如果验证者在不同的链上创建块, 则在事后会将其行为记录在区块链上, 并扣除其押金.
+   
+* Casper
+
+  Casper有可能做到秒级别的共识, Casper中有很多抵押了一定代币的验证者, 这些验证者对新块进行投票已决定它是否有效, 最后根据投票的结果形成大多数人的意见. 投票新块有效的用户会获得奖励, 而作恶用户将会被没收押金。
+
+
 ### 权益证明
 
 * [权益证明 FAQ（完整版）](https://ethfans.org/posts/Proof-of-Stake-FAQ-new-2018-3-15)
@@ -383,79 +280,5 @@ Pos是基于网络参与者目前所持有的数字货币的数量和时间进�
 * [图文详解以太坊的节点和分片](http://8btc.com/thread-169987-1-1.html)
 * [以太坊分片：overview and finality](https://cloud.tencent.com/developer/article/1021579)
 
-
 ----------------
-
-## 以太坊源码分析
-
-### 理论
-* 平衡二叉树
-* 字典树
-* 梅克尔树
-* MPT
-
-### 相关文章
-
-   分享一些自己读过的以太坊源码分析方面的好文章。后续，自己也会尝试对以太坊源码进行分析。
-   
-   下面的文章主要是CSDN上的一个teaspring的技术专栏里面关于以太坊源代码分析的文章，文章写的超级好，强烈推荐！
-
-* [区块和交易，合约和虚拟机](https://blog.csdn.net/teaspring/article/details/75389151)
-* [数据的呈现和组织，缓存和更新](https://blog.csdn.net/teaspring/article/details/75390210)
-* [挖矿和共识算法的奥秘](https://blog.csdn.net/teaspring/article/details/78050274)
-* [Clique共识算法](https://ethfans.org/posts/Clique-Consensus-Algorithm)
-*[ 椭圆曲线密码学和以太坊中的椭圆曲线数字签名算法应用](https://blog.csdn.net/teaspring/article/details/77834360)
-
-_______________　
-
-## Dapp
-
-* [智能合约开发环境搭建及Hello World合约](https://bihu.com/article/565996)
-* [搭建以太坊私有链](https://bihu.com/article/567206)
-* [区块链应用之dog shop](https://github.com/xianfeng92/dog-shop)
-* [Collection your favorite NBA All-Star](https://github.com/xianfeng92/NBASTAR)
-* [盘点以太坊十大应用](http://www.8btc.com/ethereum-top-10-app)
-
-### Solidity
-
-Solidity是一种用于编写智能合约的高级语言，语法类似于JavaScript。在以太坊平台上，Solidity编写的智能合约可以被编译成字节码在以太坊虚拟机上运行。使用Solidity语言编写智能合约避免了直接编写底层的以太坊虚拟机代码，提高了编码效率，同时该语言也具有更好的可读性。
-
-* [Solidity简介](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/Solidity.md)
-
-----------------
-
-## The DAO (Ethereum) - 去中心化的自治组织, Decentralized Autonomous Organization
-
-* [道or悼？三分钟看懂史上最逆天的区块链众筹项目The DAO](http://www.8btc.com/what-is-the-dao)
-* [理解The DAO为什么属于证券的最简单方法](http://www.jinse.com/news/blockchain/50751.html)
-* [从“脱欧”与“惊世DAO窃”谈区块链——论共识、分叉、去中心化与安全](http://www.8btc.com/brexit-and-the-dao)
-
-
-
-------------------------------------------------------------------------------------------------------------
-
-### 下面主要是项目评测以及虚拟币的买卖
-
-友情提醒：　币市风险大大大大大
-
-
-　　　　　　　　　　　　
-学习区块链知识，做好自己的价值投资
-
-------------------------------------------------------------------------------------------------------------
-
-
-
-# 项目评测
-
-* [解读AE丨卖酒的希望超越以太坊ETH，阿姨币了解一下？](https://mp.weixin.qq.com/s/VV7_1czzD-_AoasSCETBZQ)
-* [解读ZIL丨“袁绍点兵，多多益善‘’，掌握分片技术的行军之道](https://mp.weixin.qq.com/s/TTz46Rsl1Z4rKAUB9YIIIA)
-
------------------
-
-
-# 虚拟货币交易
-
-* [如何买币卖币](https://mp.weixin.qq.com/s/gRi4q_8EF2DQw4KpeMM-cA)
-* [知识点来啦！了解数字货币交易所知识，争当一名合格的韭菜](https://mp.weixin.qq.com/s/jmwDvsc5-GtAmDDxOTqdxg)
 
