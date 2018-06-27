@@ -24,6 +24,8 @@ Solidity是一种用于编写智能合约的高级语言，语法类似于JavaSc
 
 * [ERC-20协议详解](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ERC-20%E5%8D%8F%E8%AE%AE%E8%AF%A6%E8%A7%A3.md)
 
+* [以太坊智能合约的设计模式与升级方法](https://github.com/FISCO-BCOS/Wiki/tree/master/%E6%B5%85%E8%B0%88%E4%BB%A5%E5%A4%AA%E5%9D%8A%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E7%9A%84%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8D%87%E7%BA%A7%E6%96%B9%E6%B3%95%EF%BB%BF)
+
 ## 经典合约案例
 
 * [Token LBJ](https://github.com/xianfeng92/Love-Ethereum/tree/master/testSmartContract/LBJ)
