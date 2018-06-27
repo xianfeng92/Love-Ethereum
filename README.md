@@ -84,6 +84,7 @@
 
 * 基于区块链的投票　－－Ballot
 * 盲拍 -- Blind Auction
+* 权限控制　－－　AccessControl
 
 ## 以太坊源码的分析 －－－－ 进行中
 
