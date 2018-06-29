@@ -1,0 +1,522 @@
+clique
+clique.proposals
+clique.propose()\
+clique.propose()
+clique.propose.call()
+clique.propose
+admin
+clique
+eth.accounts
+var _biddingTime = 100/* var of type uint256 here */ ;
+var _beneficiary = "0x1c45394c16e8e302cd63b944a66848129c69ad09"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+eth.sendTransaction({from:eth.accounts[0],to:eth.accounts[1],value:web3.toWei(10,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+simpleauction.withdraw.sendTransaction({from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+simpleauction.withdraw.sendTransaction({from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+simpleauction.withdraw.sendTransaction({from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+eth.accounts
+"0x5367781f891f9e16f16171481f2f061f99b3d419".balance
+"0x5367781f891f9e16f16171481f2f061f99b3d419".balance.call()
+"0x5367781f891f9e16f16171481f2f061f99b3d419".balance
+eth.accounts[0].balance
+eth.accounts
+eth.getBalance(eth.accounts[1])
+eth.getBalance(eth.accounts[2])
+eth.getBalance(eth.accounts[1])
+\
+eth.accounts
+var _biddingTime = 10/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+sip
+simpleauction
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+eth.getTransaction("0x514348b60bc4a14042fed78eb11c90f6621a01c6faaecee1792eb891131cde2a")
+eth.getBalance(eth.accounts[1])
+simp
+simpleauction
+simpleauction.auctionEnd.call()
+eth.getBalance(eth.accounts[1])
+eth.getTransaction("0x514348b60bc4a14042fed78eb11c90f6621a01c6faaecee1792eb891131cde2a")
+simpleauction
+simpleauction.highestBid
+simpleauction.highestBidder
+simpleauction.highestBidder.call()
+simpleauction.highestBid.call()
+simpleauction.beneficiary.call()
+eth.accounts
+simpleauction.auctionEnd.call()
+var _biddingTime = "10"/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction.auctionEnd.call()
+var _biddingTime = "10"/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction.auctionEnd.call(10)
+simpleauction.auctionEnd.call(100)
+var _biddingTime = 10/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction.auctionEnd.call()
+simpleauction.beneficiary.call()
+var _biddingTime = "100"/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106aa8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff1602179055508142016001819055505050610613806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820c35e0d96cb1f9e942ad89d92ee99092d44c4bfbb0956c2c7e35760dea7b483a20029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction.auctionEnd.call()
+simpleauction.auctionEnd
+simpleauction.auctionEnd.call()
+now
+eth.noe
+eth.now
+web3.now
+var _biddingTime = /* var of type uint256 here */ ;
+var _beneficiary = /* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106c18339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550814201600181905550505061062a806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632a24f46c1461007d57806338af3eed146100945780633ccfd60b146100eb578063454a2ab31461011a57806391f901571461013a578063d57bde7914610191575b600080fd5b34801561008957600080fd5b506100926101bc565b005b3480156100a057600080fd5b506100a96102fe565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100f757600080fd5b50610100610323565b604051808215151515815260200191505060405180910390f35b61013860048036038101908080359060200190929190505050610448565b005b34801561014657600080fd5b5061014f6105d2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561019d57600080fd5b506101a66105f8565b6040518082815260200191505060405180910390f35b600154421115156101cc57600080fd5b600560009054906101000a900460ff161515156101e857600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f193505050501580156102fb573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050600081111561043f576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050151561043e5780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555060009150610444565b5b600191505b5090565b6001544210151561045857600080fd5b6003548111151561046857600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561051c5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293382604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a150565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a723058206d43323967f57407c16450cb492ca1ef7991e87d3abdb863771ec6962805f8f90029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+eth.accounts
+var _biddingTime = "10"/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106c18339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550814201600181905550505061062a806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632a24f46c1461007d57806338af3eed146100945780633ccfd60b146100eb578063454a2ab31461011a57806391f901571461013a578063d57bde7914610191575b600080fd5b34801561008957600080fd5b506100926101bc565b005b3480156100a057600080fd5b506100a96102fe565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100f757600080fd5b50610100610323565b604051808215151515815260200191505060405180910390f35b61013860048036038101908080359060200190929190505050610448565b005b34801561014657600080fd5b5061014f6105d2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561019d57600080fd5b506101a66105f8565b6040518082815260200191505060405180910390f35b600154421115156101cc57600080fd5b600560009054906101000a900460ff161515156101e857600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f193505050501580156102fb573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050600081111561043f576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050151561043e5780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555060009150610444565b5b600191505b5090565b6001544210151561045857600080fd5b6003548111151561046857600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561051c5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293382604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a150565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a723058206d43323967f57407c16450cb492ca1ef7991e87d3abdb863771ec6962805f8f90029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+sim
+simpleauction
+simpleauction.beneficiary.call()
+simpleauction.auctionEnd.call()
+simpleauction.bid.sendTransaction(10000000000000,{from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction(10000000000000,{from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction(100000000000000000,{from:eth.accounts[1]})
+eth.getBalance(eth.accounts[1])
+simpleauction
+simpleauction.highestBid.call()
+simpleauction.highestBidder.call()\
+simpleauction.highestBidder.call()
+simpleauction
+log
+simpleauction
+var _timming = "1000"/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"timming","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_timming","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   _timming,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516020806100e7833981018060405281019080805190602001909291905050508060008190555050609e806100496000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d6cb2e5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a72305820d06cb8d161b10caab8c2f7ac8e80d763966e8392b463f38e1fa20e094e2a27ee0029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test
+test.timming.call()
+var a = /* var of type uint256 here */ ;
+var b = /* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"timming","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   a,
+   b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101178339810180604052810190808051906020019092919080519060200190929190505050610056828261005e640100000000026401000000009004565b50505061006b565b6000818301905092915050565b609e806100796000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632d6cb2e5146044575b600080fd5b348015604f57600080fd5b506056606c565b6040518082815260200191505060405180910390f35b600054815600a165627a7a723058203a8d036e7c75115d3ceee6b01ce43fd2489c8920259c5c5f0a1ffc7c49f8bb520029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+var a = "10" /* var of type uint256 here */ ;
+var b = "20"/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   a,
+   b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101aa83398101806040528101908080519060200190929190805190602001909291905050508191508090505050610156806100546000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1461005c5780634df7e3d014610087578063e9a58c40146100b2575b600080fd5b34801561006857600080fd5b506100716100fd565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610103565b6040518082815260200191505060405180910390f35b3480156100be57600080fd5b506100e76004803603810190808035906020019092919080359060200190929190505050610109565b6040518082815260200191505060405180910390f35b60005481565b60015481565b6000610115838361011d565b905092915050565b60008183019050929150505600a165627a7a72305820fecb748dda62979c0a1b2a9273bfd0843a825e607b0752a4549cf8bdab1e83e80029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test
+test.a.call()
+test.b.call()
+var a = 10 /* var of type uint256 here */ ;
+var b = 20/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   a,
+   b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101aa83398101806040528101908080519060200190929190805190602001909291905050508191508090505050610156806100546000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1461005c5780634df7e3d014610087578063e9a58c40146100b2575b600080fd5b34801561006857600080fd5b506100716100fd565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610103565b6040518082815260200191505060405180910390f35b3480156100be57600080fd5b506100e76004803603810190808035906020019092919080359060200190929190505050610109565b6040518082815260200191505060405180910390f35b60005481565b60015481565b6000610115838361011d565b905092915050565b60008183019050929150505600a165627a7a72305820fecb748dda62979c0a1b2a9273bfd0843a825e607b0752a4549cf8bdab1e83e80029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test.a.call()
+var a = 10 /* var of type uint256 here */ ;
+var b = 20/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   a,
+   b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101aa83398101806040528101908080519060200190929190805190602001909291905050508191508090505050610156806100546000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1461005c5780634df7e3d014610087578063e9a58c40146100b2575b600080fd5b34801561006857600080fd5b506100716100fd565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610103565b6040518082815260200191505060405180910390f35b3480156100be57600080fd5b506100e76004803603810190808035906020019092919080359060200190929190505050610109565b6040518082815260200191505060405180910390f35b60005481565b60015481565b6000610115838361011d565b905092915050565b60008183019050929150505600a165627a7a72305820fecb748dda62979c0a1b2a9273bfd0843a825e607b0752a4549cf8bdab1e83e80029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test
+test.a.call()
+test.b.call()
+var _a = 10/* var of type uint256 here */ ;
+var _b = 20/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"a","type":"uint256"},{"name":"b","type":"uint256"}],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   _a,
+   _b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101b28339810180604052810190808051906020019092919080519060200190929190505050816000819055508060018190555050506101568061005c6000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1461005c5780634df7e3d014610087578063e9a58c40146100b2575b600080fd5b34801561006857600080fd5b506100716100fd565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c610103565b6040518082815260200191505060405180910390f35b3480156100be57600080fd5b506100e76004803603810190808035906020019092919080359060200190929190505050610109565b6040518082815260200191505060405180910390f35b60005481565b60015481565b6000610115838361011d565b905092915050565b60008183019050929150505600a165627a7a7230582063a242a10919da95c6f89bd044d216e35f9bf3a104872397e379a4975a38d9840029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+tets
+test
+test.a.call()
+test.b.call()
+test.fun.call()
+test.fun.call(1,2)
+var _a = "10"/* var of type uint256 here */ ;
+var _b = "20"/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   _a,
+   _b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806101848339810180604052810190808051906020019092919080519060200190929190505050816000819055508060018190555050506101288061005c6000396000f3006080604052600436106053576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1460585780634df7e3d0146080578063946644cd1460a8575b600080fd5b348015606357600080fd5b50606a60d0565b6040518082815260200191505060405180910390f35b348015608b57600080fd5b50609260d6565b6040518082815260200191505060405180910390f35b34801560b357600080fd5b5060ba60dc565b6040518082815260200191505060405180910390f35b60005481565b60015481565b600060ea60005460015460ef565b905090565b60008183019050929150505600a165627a7a723058209463f76122bb68a48a3174ddefc348f6de2e236992443c49f0c9ae13b1d5c1fc0029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test
+test.a.call()
+test.fun.call()
+var test1Contract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"name":"calc","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]);
+var test1 = test1Contract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060c58061001f6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806332bb2c0d146044575b600080fd5b348015604f57600080fd5b5060766004803603810190808035906020019092919080359060200190929190505050608c565b6040518082815260200191505060405180910390f35b60008183019050929150505600a165627a7a72305820a5fdd08ba07401242c36997724d3a706f290fd713edc1b8508cc791de50109190029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test1
+var test1Contract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"name":"calc","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]);
+var test1 = test1Contract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060c58061001f6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806332bb2c0d146044575b600080fd5b348015604f57600080fd5b5060766004803603810190808035906020019092919080359060200190929190505050608c565b6040518082815260200191505060405180910390f35b60008183019050929150505600a165627a7a72305820a5fdd08ba07401242c36997724d3a706f290fd713edc1b8508cc791de50109190029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test1
+var test1Contract = web3.eth.contract([{"constant":false,"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"name":"calc","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"}]);
+var test1 = test1Contract.new(
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060c58061001f6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806332bb2c0d146044575b600080fd5b348015604f57600080fd5b5060766004803603810190808035906020019092919080359060200190929190505050608c565b6040518082815260200191505060405180910390f35b60008183019050929150505600a165627a7a72305820a5fdd08ba07401242c36997724d3a706f290fd713edc1b8508cc791de50109190029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test1
+var _a = 10 /* var of type uint256 here */ ;
+var _b = 200/* var of type uint256 here */ ;
+var testContract = web3.eth.contract([{"constant":true,"inputs":[],"name":"a","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"b","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[{"name":"add","type":"address"}],"name":"fun","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"inputs":[{"name":"_a","type":"uint256"},{"name":"_b","type":"uint256"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"}]);
+var test = testContract.new(
+   _a,
+   _b,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b5060405160408061025c8339810180604052810190808051906020019092919080519060200190929190505050816000819055508060018190555050506102008061005c6000396000f300608060405260043610610057576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680630dbe671f1461005c5780634df7e3d014610087578063ec861356146100b2575b600080fd5b34801561006857600080fd5b50610071610109565b6040518082815260200191505060405180910390f35b34801561009357600080fd5b5061009c61010f565b6040518082815260200191505060405180910390f35b3480156100be57600080fd5b506100f3600480360381019080803573ffffffffffffffffffffffffffffffffffffffff169060200190929190505050610115565b6040518082815260200191505060405180910390f35b60005481565b60015481565b60008173ffffffffffffffffffffffffffffffffffffffff166332bb2c0d6000546001546040518363ffffffff167c01000000000000000000000000000000000000000000000000000000000281526004018083815260200182815260200192505050602060405180830381600087803b15801561019257600080fd5b505af11580156101a6573d6000803e3d6000fd5b505050506040513d60208110156101bc57600080fd5b810190808051906020019092919050505090509190505600a165627a7a7230582057521dff9b22274bfc9b2f9fb6187ca02bd9c9336260890269e7db64a74b63e40029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+test
+test.a.call()\
+test.a.call()
+test1
+test.fun.call("0xd48db1fd3e56c668599d69b51b57a6979cf25b9f")
+var _biddingTime = "10"/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":false,"inputs":[{"name":"amount","type":"uint256"}],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":false,"stateMutability":"nonpayable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405234801561001057600080fd5b506040516040806106c18339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550814201600181905550505061062a806100976000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680632a24f46c1461007d57806338af3eed146100945780633ccfd60b146100eb578063454a2ab31461011a57806391f901571461013a578063d57bde7914610191575b600080fd5b34801561008957600080fd5b506100926101bc565b005b3480156100a057600080fd5b506100a96102fe565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b3480156100f757600080fd5b50610100610323565b604051808215151515815260200191505060405180910390f35b61013860048036038101908080359060200190929190505050610448565b005b34801561014657600080fd5b5061014f6105d2565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561019d57600080fd5b506101a66105f8565b6040518082815260200191505060405180910390f35b600154421115156101cc57600080fd5b600560009054906101000a900460ff161515156101e857600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f193505050501580156102fb573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020549050600081111561043f576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f19350505050151561043e5780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020019081526020016000208190555060009150610444565b5b600191505b5090565b6001544210151561045857600080fd5b6003548111151561046857600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561051c5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550806003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293382604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a150565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a723058206d43323967f57407c16450cb492ca1ef7991e87d3abdb863771ec6962805f8f90029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+simpleauction.auctionEnd.call()
+simpleauction.beneficiary.call()
+eth.accounts[1]
+simpleauction
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",100,{from:eth.accounts[1]})
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",{from:eth.accounts[1]})
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",100000000000000,{from:eth.accounts[1]})
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",{from:eth.accounts[1]})
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",{from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction("0x34cdc29c336b0f9a44a4415000df3de97c93b90c",{from:eth.accounts[1],value:web3.toWei(1,"ether")})
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.accounts[1]
+eth.accounts[0]
+var _biddingTime = 100/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":true,"stateMutability":"payable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405260405160408061069d8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081420160018190555050506106138061008a6000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820fad95724e7a14dd008f3be793a431fae49001c0d80ab384d028fd235b5293cd60029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(1,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(2,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction
+simpleauction.highestBid
+simpleauction.highestBid.call()
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(4,"ether")})
+simpleauction.highestBid.call()
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(4,"ether")})
+simpleauction.highestBid.call()
+eth.getBalance(eth.accounts[1])
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(4,"ether")})
+eth.getBalance(eth.accounts[1])
+simpleauction.highestBidder
+simpleauction.highestBidder.call()
+eth.accounts[1]
+simpleauction.bid.sendTransaction({from:eth.accounts[1],value:web3.toWei(4,"ether")})
+eth.getBalance(eth.accounts[1])
+eth.sendTransaction({from:eth.accounts[0],to:eth.accounts[2],value:web3.toWei(8,"ether")})
+eth.getBalance(eth.accounts[2])
+simpleauction.bid.sendTransaction({from:eth.accounts[2],value:web3.toWei(4,"ether")})
+eth.getBalance(eth.accounts[2])
+simpleauction.auctionEnd.call()
+simpleauction.auctionEnd.call(100)
+var _biddingTime = 1000000000/* var of type uint256 here */ ;
+var _beneficiary = "0xe50d8000077dc236fc6a056c0e4b1241ac1598e5"/* var of type address here */ ;
+var simpleauctionContract = web3.eth.contract([{"constant":false,"inputs":[],"name":"bid","outputs":[],"payable":true,"stateMutability":"payable","type":"function"},{"constant":false,"inputs":[],"name":"auctionEnd","outputs":[],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"beneficiary","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":false,"inputs":[],"name":"withdraw","outputs":[{"name":"","type":"bool"}],"payable":false,"stateMutability":"nonpayable","type":"function"},{"constant":true,"inputs":[],"name":"highestBidder","outputs":[{"name":"","type":"address"}],"payable":false,"stateMutability":"view","type":"function"},{"constant":true,"inputs":[],"name":"highestBid","outputs":[{"name":"","type":"uint256"}],"payable":false,"stateMutability":"view","type":"function"},{"inputs":[{"name":"_biddingTime","type":"uint256"},{"name":"_beneficiary","type":"address"}],"payable":true,"stateMutability":"payable","type":"constructor"},{"anonymous":false,"inputs":[{"indexed":false,"name":"bidder","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"HighestBidIncrease","type":"event"},{"anonymous":false,"inputs":[{"indexed":false,"name":"winner","type":"address"},{"indexed":false,"name":"amount","type":"uint256"}],"name":"AuctionEnd","type":"event"}]);
+var simpleauction = simpleauctionContract.new(
+   _biddingTime,
+   _beneficiary,
+   {
+     from: web3.eth.accounts[0], 
+     data: '0x608060405260405160408061069d8339810180604052810190808051906020019092919080519060200190929190505050806000806101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff16021790555081420160018190555050506106138061008a6000396000f300608060405260043610610078576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff1680631998aeef1461007d5780632a24f46c1461008757806338af3eed1461009e5780633ccfd60b146100f557806391f9015714610124578063d57bde791461017b575b600080fd5b6100856101a6565b005b34801561009357600080fd5b5061009c61032f565b005b3480156100aa57600080fd5b506100b3610471565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561010157600080fd5b5061010a610496565b604051808215151515815260200191505060405180910390f35b34801561013057600080fd5b506101396105bb565b604051808273ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200191505060405180910390f35b34801561018757600080fd5b506101906105e1565b6040518082815260200191505060405180910390f35b600154421015156101b657600080fd5b600354341115156101c657600080fd5b6000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1614151561027a5760035460046000600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020600082825401925050819055505b33600260006101000a81548173ffffffffffffffffffffffffffffffffffffffff021916908373ffffffffffffffffffffffffffffffffffffffff160217905550346003819055507fdfea07ab8527bd08519bfa633240757a7bb0a7f3c7adc98e30604ba73c70f4293334604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a1565b6001544211151561033f57600080fd5b600560009054906101000a900460ff1615151561035b57600080fd5b6001600560006101000a81548160ff0219169083151502179055507f6ae96154c7c63a88543f3fdfca38bc8f87f4e2b034479c9429858b4b56fa0bec600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff16600354604051808373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff1681526020018281526020019250505060405180910390a16000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff166108fc6003549081150290604051600060405180830381858888f1935050505015801561046e573d6000803e3d6000fd5b50565b6000809054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600080600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002054905060008111156105b2576000600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff168152602001908152602001600020819055503373ffffffffffffffffffffffffffffffffffffffff166108fc829081150290604051600060405180830381858888f1935050505015156105b15780600460003373ffffffffffffffffffffffffffffffffffffffff1673ffffffffffffffffffffffffffffffffffffffff16815260200190815260200160002081905550600091506105b7565b5b600191505b5090565b600260009054906101000a900473ffffffffffffffffffffffffffffffffffffffff1681565b600354815600a165627a7a72305820fad95724e7a14dd008f3be793a431fae49001c0d80ab384d028fd235b5293cd60029', 
+     gas: '4700000'
+   }, function (e, contract){
+    console.log(e, contract);
+    if (typeof contract.address !== 'undefined') {
+         console.log('Contract mined! address: ' + contract.address + ' transactionHash: ' + contract.transactionHash);
+    }
+ })
+simpleauction
+eth.accounts
+eth.getBalance(eth.accounts[1])
+eth.getBalance(eth.accounts[2])
+var base\ = eth.accounts[0]
+var base = eth.accounts[0]
+base
+var a = eth.accounts[1]
+var b = eth.accounts[2]
+A
+a
+b
+simpleauction
+simpleauction.bid.sendTransaction({from:a, value:web3.toWei(3,"ether")})
+eth.getBalance(a)
+simpleauction.bid.sendTransaction({from:b, value:web3.toWei(7,"ether")})
+eth.getBalance(b)
+simpleauction.highestBid.call()
+simpleauction.highestBidder.call()
+b
+var c = eth.accounts[3]
+c
+simpleauction.highestBid
+simpleauction.highestBid.call()
+simpleauction.withdraw.sendTransaction({from:a})
+eth.getBalance(a)
+a
+eth.accounts[0]
