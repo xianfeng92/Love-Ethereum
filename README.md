@@ -4,39 +4,25 @@
 
 # 一个区块链技术学习框架
 
-
 ------------------------------------------------------------------------------------------
 
 ## 版本说明
 
-* Frontier
+* [Frontier](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
 
   简单的介绍区块链基础知识，致力于让初学者通过阅读此版本可以对区块链技术有个初步的认知。
   
-* Homestead
+* [Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
 
   介绍以太坊项目，并对涉及到的区块链核心技术点进行介绍和分析。
 
-* Metropolis
+* [Metropolis](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
 
   该本版主要是关于智能合约和Dapp
   
-* Serenlity
+* [Serenlity](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
   
   以太坊源码分析
-
-
-
-欢迎区块链技术爱好者或者想要学习区块链技术的朋友一起加入进来, 一起学习和完善这个项目。希望最终可以打通一条从区块链核心技术到实际开发应用的学习之路。
-
-
-------------------------------------------------------------------------------------------
-
-
-关于区块链，从一个故事[Frontier.md](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)开始吧!
-
-对区块链技术已有所了解从这里[Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)开始吧!
-
 
 -------------------------------------------------------------------------------------------
 
