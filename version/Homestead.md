@@ -325,6 +325,8 @@ __单片控制攻击__
 
 [Sharding FAQs](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 
+[Sharding](https://github.com/ethereum/sharding/blob/develop/docs/doc.md)
+
 #### 相关文章
 
 * [什么是分片？](http://8btc.com/thread-170816-1-1.html)
