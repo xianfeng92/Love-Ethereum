@@ -82,8 +82,8 @@
 * state channel
 
 
-
 [直达通道](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
+
 -------------------------------------------------------------------------------------------
 
 
