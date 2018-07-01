@@ -333,6 +333,7 @@ __单片控制攻击__
 * [图文详解以太坊的节点和分片](http://8btc.com/thread-169987-1-1.html)
 * [以太坊分片：overview and finality](https://cloud.tencent.com/developer/article/1021579)
 * [干货 | 如何扩展以太坊：分片原理解释](https://ethfans.org/posts/how-to-scale-ethereum-sharding-explained)
+* [理解以太坊的第2层扩展方案](https://ethfans.org/posts/making-sense-of-ethereums-layer-2-scaling-solutions)
 
 ----------------
 
