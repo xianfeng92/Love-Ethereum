@@ -39,7 +39,7 @@
 
 * 已完成LBJ　Token的功能测试，LBJ　可以部署在以太坊主网上。
 
-[直达]（https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md）
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
 
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -56,7 +56,7 @@
 * CD（Controller-Data）模式
 
 
- [直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
  
 ----------------------------------------------------------------------------------------------------------------------------
 
@@ -65,7 +65,7 @@
 * 目前主要是阅读一些以太坊源码解读的文章
 
 
-[直达]（https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md）
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
@@ -79,7 +79,7 @@
 * state channel
 
 
-[直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
 
 -------------------------------------------------------------------------------------------
 
