@@ -55,7 +55,7 @@
 
 * CD（Controller-Data）模式
 
-### Truffle
+### Dapp开发利器－Truffle
 
 * [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
 
