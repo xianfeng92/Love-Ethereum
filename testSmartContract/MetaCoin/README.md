@@ -40,6 +40,7 @@ You can create a bare project template, but for those just getting started, you 
 
 then, you'll get this
 
+```
 Project is running at http://localhost:8080/
 webpack output is served from /
 Hash: 7d84f794b19e7c619de2
@@ -66,7 +67,7 @@ chunk    {0} app.js (main) 1.65 MB [entry] [rendered]
   [237] multi (webpack)-dev-server/client?http://localhost:8080 ./app/javascripts/app.js 40 bytes {0} [built]
      + 223 hidden modules
 webpack: Compiled successfully.
-
+```
 
 6 Contract instance
 
