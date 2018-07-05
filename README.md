@@ -45,11 +45,11 @@
 
 ## 以太坊私有链上测试和部署一些经典的智能合约 ----进行中
 
-## Solidity
+### Solidity
 
 * [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
 
-## Web3 Api
+### Web3 Api
 
 * [Web3 Api](https://github.com/xianfeng92/Web3js-Doc)
 
@@ -71,6 +71,13 @@
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
  
 ----------------------------------------------------------------------------------------------------------------------------
+
+## 可信之石---共识算法
+
+* [区块链共识算法学习](https://github.com/xianfeng92/Love-Ethereum/tree/master/DistributedSystem)
+
+----------------------------------------------------------------------------------------------------------------------------
+
 
 ## 以太坊源码的分析 ---- 进行中
 
