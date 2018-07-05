@@ -49,6 +49,10 @@
 
 * [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
 
+## Web3 Api
+
+* [Web3 Api](https://github.com/xianfeng92/Web3js-Doc)
+
 ### 经典的智能合约案例
 
 * 基于区块链的投票　－－Ballot
