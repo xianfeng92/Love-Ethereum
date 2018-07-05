@@ -77,7 +77,7 @@
 
   想快速了解一个项目,还是要把这里弄清楚.
 
-* [区块链共识算法学习](https://github.com/xianfeng92/Love-Ethereum/tree/master/DistributedSystem)
+* [区块链共识算法学习](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/ConsensusAlgorithm.md)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
