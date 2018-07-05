@@ -45,6 +45,10 @@
 
 ## 以太坊私有链上测试和部署一些经典的智能合约 ----进行中
 
+## Solidity
+
+*[Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
+
 ### 经典的智能合约案例
 
 * 基于区块链的投票　－－Ballot
