@@ -47,7 +47,7 @@
 
 ## Solidity
 
-*[Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
+* [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
 
 ### 经典的智能合约案例
 
