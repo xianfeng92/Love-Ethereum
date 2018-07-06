@@ -10,7 +10,7 @@
 
 * [Frontier](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
 
-  简单的介绍区块链基础知识，致力于让初学者通过阅读此版本可以对区块链技术有个初步的认知。
+  简单的介绍区块链基础知识，通过阅读此版本可以对区块链技术有个初步的认知。
   
 * [Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
 
@@ -31,7 +31,7 @@
 
 ## 阅读和整理区块链资料, 制作Frontier ---- 已完成
 
-* 项目初期，需要阅读和整理很多资料。考虑到学习的逻辑性，对Frontier的框架也会做相应调整，这不是对学习资料的堆砌，会为每一个阅读者负责。本周计划完成Frontier初稿版。
+* 项目初期，需要阅读和整理很多资料。考虑到学习的逻辑性，对Frontier的框架也会做相应调整。本周计划完成Frontier初稿版。
   
 　　
 * 已完成Frontier版本,目前正在以太坊私有链上测试和部署 LBJ Token的功能.
