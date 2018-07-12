@@ -101,7 +101,7 @@
 
 * [Sharding FAQ 英文版](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 
-* Sharding FAQ 中文版
+* [Sharding FAQ 中文版](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ShardingFAQ.md)
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
 
