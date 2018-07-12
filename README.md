@@ -99,7 +99,7 @@
    
 * state channel
 
-* [Sharding FAQ 英文版](https://github.com/ethereum/wiki/wiki/Sharding-FAQ)
+* [Sharding FAQ 英文版](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
 
 * Sharding FAQ 中文版
 
