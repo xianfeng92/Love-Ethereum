@@ -311,10 +311,13 @@ EcommerceStore.deployed().then(function(i){i.addProductToStore("iWatch","Cell","
 
 > web3.eth.getBalance(web3.eth.accounts[3])
 
-Note:　拍卖开始时间：current_time　和　拍卖结束时间：current_time+3600　需要注意，确保　bid 是在拍卖结束前调用，不然会出现异常。
+Note:　
 
-在　truffle develop 中测试的，在Mac上正常，在ubuntu 上老是出现 EVM 异常。
+* 拍卖开始时间：current_time　和　拍卖结束时间：current_time+3600　需要注意，确保　bid 是在拍卖结束前调用，不然会出现异常。
 
+* 在truffle develop中测试的，在Mac上竞拍(bid)正常，在ubuntu上(bid)老是出现 EVM 异常。
+
+* 如果代码测试异常时，除了语法和逻辑错误，还应该多换换测试环境 
 
 
 
