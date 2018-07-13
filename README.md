@@ -80,9 +80,13 @@
 
 ## 可信之石(共识算法) ----进行中
 
-  想快速了解一个项目,还是要把这里弄清楚.
 
-* [区块链共识算法学习](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/ConsensusAlgorithm.md)
+* [共识算法介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/ConsensusAlgorithm.md)
+
+*[Paxos](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/paxos.md)
+*[PBFT](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/pbft.md)
+* Pow
+* Pos
 
 
 ----------------------------------------------------------------------------------------------------------------------------
