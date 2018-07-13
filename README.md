@@ -30,8 +30,6 @@
 # Project progress
 
 ## 阅读和整理区块链资料, 制作Frontier ---- 已完成
-
-* 项目初期，需要阅读和整理很多资料。考虑到学习的逻辑性，对Frontier的框架也会做相应调整。本周计划完成Frontier初稿版。
   
 * 已完成Frontier版本,目前正在以太坊私有链上测试和部署 LBJ Token的功能.
 
