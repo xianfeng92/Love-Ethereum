@@ -86,8 +86,10 @@
 * [Paxos](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/paxos.md)
 
 * [PBFT](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/pbft.md)
+
 * Pow
-* Pos
+
+* [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
 
 
 ----------------------------------------------------------------------------------------------------------------------------
