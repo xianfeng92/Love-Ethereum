@@ -130,7 +130,7 @@
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
  
-* Cross-shard contract yanking
+* [Cross-shard contract yanking](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%B7%A8%E5%88%86%E7%89%87%E5%90%88%E7%BA%A6yanking.md)
  
 ### Casper
 
