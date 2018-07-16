@@ -129,6 +129,8 @@
 * [Sharding FAQ 中文版](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ShardingFAQ.md)
  
 * [Cross-shard contract yanking](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%B7%A8%E5%88%86%E7%89%87%E5%90%88%E7%BA%A6yanking.md)
+
+* [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
  
 ### Casper
 
