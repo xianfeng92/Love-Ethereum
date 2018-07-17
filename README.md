@@ -1,10 +1,36 @@
 # Love-Ethereum
 
-----------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------------------------------------------
 
-# 区块链学习
+## [Ethresear](https://ethresear.ch/) ---- 进行中
 
-------------------------------------------------------------------------------------------
+### Sharding
+
+以太坊仍处于初级阶段。现在，它不具备安全性和可扩展性。以太坊和web3期望建设的——一个安全、易用、由一套共同的经济协议约束、可供数十亿人使用的分布式互联网，仍处于发展阶段，直到关键基础设施建成之后才能实现。致力于构建此 __基础架构__ 并扩大以太坊容量的项目通常称为扩容方案。它们有许多不同的形式，并且常常互相兼容或互补。这里我们将主要介绍以太坊关于解决扩容问题的“第1层”和“第2层”解决方案。
+
+* [Sharding FAQ 英文版](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
+
+* [Sharding FAQ 中文版](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ShardingFAQ.md)
+
+
+### Cross-Shard
+ 
+* [Cross-shard contract yanking](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%B7%A8%E5%88%86%E7%89%87%E5%90%88%E7%BA%A6yanking.md)
+
+* [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
+
+* [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
+
+ 
+### Casper
+
+### Plasma
+
+### Economics
+
+### Applications
+
+-------------------------------------------------------------------------------------------
 
 ## 版本说明
 
@@ -73,14 +99,14 @@
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
  
-----------------------------------------------------------------------------------------------------------------------------
+--------------------------------------------------------------------------------------------------------------
 
 ## P2P网络
 
 
 
 
-----------------------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 ## 可信之石(共识算法) ----进行中
 
@@ -96,8 +122,22 @@
 * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
 
 
-----------------------------------------------------------------------------------------------------------------------------
+-------------------------------------------------------------------------------------------------------------
 
+
+# IPFS ----进行中
+
+星际文件系统IPFS（InterPlanetary File System）是一个面向全球的、点对点的分布式版本文件系统，目标是为了补充（甚至是取代）目前统治互联网的超文本传输协议（HTTP），将所有具有相同文件系统的计算设备连接在一起。
+
+* [IPFS基本介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFS.md)
+* [IPFS基本操作](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSCommand.md)
+* [IPFS项目中的使用](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSBlockchain.md)
+
+## Vickrey auction
+
+* [Vickreyauction](https://github.com/xianfeng92/Love-Ethereum/tree/master/Vickreyauction)
+
+------------------------------------------------------------------------------------------------------------
 
 ## 以太坊源码的分析 ---- 进行中
 
@@ -115,45 +155,7 @@
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
 
-
-----------------------------------------------------------------------------------------------------------------------------
-
-## [Ethresear](https://ethresear.ch/) ---- 进行中
-
-### Sharding
-
-以太坊仍处于初级阶段。现在，它不具备安全性和可扩展性。以太坊和web3期望建设的——一个安全、易用、由一套共同的经济协议约束、可供数十亿人使用的分布式互联网，仍处于发展阶段，直到关键基础设施建成之后才能实现。致力于构建此 __基础架构__ 并扩大以太坊容量的项目通常称为扩容方案。它们有许多不同的形式，并且常常互相兼容或互补。这里我们将主要介绍以太坊关于解决扩容问题的“第1层”和“第2层”解决方案。
-
-* [Sharding FAQ 英文版](https://github.com/ethereum/wiki/wiki/Sharding-FAQs)
-
-* [Sharding FAQ 中文版](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ShardingFAQ.md)
- 
-* [Cross-shard contract yanking](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%B7%A8%E5%88%86%E7%89%87%E5%90%88%E7%BA%A6yanking.md)
-
-* [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
- 
-### Casper
-
-### Plasma
-
-### Economics
-
-### Applications
-
--------------------------------------------------------------------------------------------
-
-# IPFS ----进行中
-
-星际文件系统IPFS（InterPlanetary File System）是一个面向全球的、点对点的分布式版本文件系统，目标是为了补充（甚至是取代）目前统治互联网的超文本传输协议（HTTP），将所有具有相同文件系统的计算设备连接在一起。
-
-* [IPFS基本介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFS.md)
-* [IPFS基本操作](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSCommand.md)
-* [IPFS项目中的使用](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSBlockchain.md)
-
-## Vickrey auction
-
-* [Vickreyauction](https://github.com/xianfeng92/Love-Ethereum/tree/master/Vickreyauction)
-
+----------------------------------------------------------------------------------------------------------------------
 
 # 大事件
 
@@ -170,7 +172,7 @@ Together we present EOS, a crypto-economic solution for securing life, liberty, 
 
 - Coretta Scott King
 
---------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 
 # 参与贡献
@@ -178,7 +180,7 @@ Together we present EOS, a crypto-economic solution for securing life, liberty, 
 区块链技术自身仍在快速发展中，生态环境也在蓬勃成长。欢迎 [参与维护项目](https://github.com/xianfeng92/Love-Ethereum/blob/master/contribute.md)。
 
 
----------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
 
 
