@@ -15,8 +15,6 @@
 
 ### Cross-Shard
  
-* [Cross-shard contract yanking](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E8%B7%A8%E5%88%86%E7%89%87%E5%90%88%E7%BA%A6yanking.md)
-
 * [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
 
 * [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
