@@ -19,6 +19,8 @@
 
 * [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
 
+* [Cross-shard contract yanking](https://ethresear.ch/t/cross-shard-contract-yanking/1450)
+
  
 ### Casper
 
