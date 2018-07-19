@@ -14,12 +14,23 @@
 
 
 ### Cross-Shard
- 
+
+关于跨分片解决方案之一拜占庭原子提交的讨论，多分片问题最理想的解决方案可能就是归并成单分片处理。所以分片以后的重点问题可能就是处理应用和分片的关系。
+
+* [Sharded Byzantine Atomic Commit](https://ethresear.ch/t/sharded-byzantine-atomic-commit/1285)
+
+--------------------------------------------------------------------------------------------------------------------------
+
+
+以太坊的一个跨分片的解决方案，方案核心就是多分片的单分片的处理方式，在EVM级别处理，可能比其他方案相关“简单”。
+
+* [Cross-shard contract yanking](https://ethresear.ch/t/cross-shard-contract-yanking/1450)
+
+--------------------------------------------------------------------------------------------------------------------------
+
 * [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
 
 * [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
-
-* [Cross-shard contract yanking](https://ethresear.ch/t/cross-shard-contract-yanking/1450)
 
  
 ### Casper
