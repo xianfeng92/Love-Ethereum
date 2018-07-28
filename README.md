@@ -57,6 +57,8 @@
 
 ### Plasma
 
+* [Minimal Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
+
 ### Economics
 
 ### Applications
