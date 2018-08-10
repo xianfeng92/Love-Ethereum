@@ -78,6 +78,20 @@
 * [ 椭圆曲线密码学和以太坊中的椭圆曲线数字签名算法应用](https://blog.csdn.net/teaspring/article/details/77834360)
 * [从钱包到客户端](https://blog.csdn.net/teaspring/article/details/78350888)
 
+
+# 源码分析
+
+从源码上去分析以太坊上 tx 的执行，节点通信以及数据存储的具体流程和实现细节。
+
+## 节点中tx
+
+* [tx_contract](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_contract.md)
+
+* [tx_process](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_process.md)
+
+* [tx_consensus](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_consensus.md)
+
+
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
  
 ### [源码分析](https://github.com/xianfeng92/ethereum-code-analysis)
