@@ -68,21 +68,6 @@
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
  
- 
-### Development Videos
-
-* [Building Ethereum DApps using Solidity](https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z)
-* [Devcon 0 (Berlin, 2014) talks and videos](https://www.youtube.com/watch?v=_BvvUlKDqp0&amp;list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS)
-* [Devcon 1 (London, 2015) talks and videos](https://www.youtube.com/watch?v=BUARih8_f68&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk)
-* [Devcon 2 (Shanghai, 2016) talks and videos](https://www.youtube.com/watch?v=1wayaZ1-iBE&list=PLaM7G4Llrb7xqzgOwbvNv63_KM7VH84Rd)
-* [**Devcon 3** (Cancún, 2017) website and registration](http://ethereumfoundation.org/devcon3/)
-
-### Explorer
-
-- [Etherscan](https://etherscan.io) 以太坊区块链浏览器
-- [Ethplorer](https://ethplorer.io) 以太坊区块链浏览器，提供API调用
-- [Eth Gas Station](https://ethgasstation.info/index.php) 以太坊Gas目前定价
- 
 --------------------------------------------------------------------------------------------------------------
 
 ## P2P网络
@@ -187,8 +172,7 @@
 * [ 椭圆曲线密码学和以太坊中的椭圆曲线数字签名算法应用](https://blog.csdn.net/teaspring/article/details/77834360)
 * [从钱包到客户端](https://blog.csdn.net/teaspring/article/details/78350888)
 
-
-# 源码分析
+## 源码分析
 
 从源码上去分析以太坊上 tx 的执行，节点通信以及数据存储的具体流程和实现细节。
 
@@ -218,6 +202,53 @@
 ## Vickrey auction
 
 * [Vickreyauction](https://github.com/xianfeng92/Love-Ethereum/tree/master/Vickreyauction)
+
+-----------------------------------------------------------------------------------------------
+
+# 资料
+
+## Wallet
+
+- [My Ether Wallet](https://myetherwallet.com) 网页版以太坊钱包 [源码](https://github.com/kvhnuke/etherwallet)
+- [MetaMask](https://metamask.io/) Chrome Extension浏览器插件版
+- [Multi-platform Jaxx Wallet](https://jaxx.io/) 同时兼容比特币钱包
+- [Mist Wallet](https://github.com/ethereum/mist/releases/latest) 官方版钱包
+- [Parity Wallet](https://github.com/paritytech/parity/releases/latest)
+- [Harmony Wallet](https://github.com/ether-camp/ethereum-harmony/releases/latest)
+- [imToken](https://token.im/) 移动App版钱包
+- [Ledger Nano S](https://theethereum.wiki/w/index.php/Ledger_Nano_S) 硬件钱包
+- [Trezor](https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08) 硬件钱包
+
+## Development Videos
+
+* [Building Ethereum DApps using Solidity](https://www.youtube.com/watch?v=9_coM_g7Dbg&list=PLH4m2oS2ratdoHFEkGvwvd7TkeTv4sa7Z)
+* [Devcon 0 (Berlin, 2014) talks and videos](https://www.youtube.com/watch?v=_BvvUlKDqp0&amp;list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS)
+* [Devcon 1 (London, 2015) talks and videos](https://www.youtube.com/watch?v=BUARih8_f68&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk)
+* [Devcon 2 (Shanghai, 2016) talks and videos](https://www.youtube.com/watch?v=1wayaZ1-iBE&list=PLaM7G4Llrb7xqzgOwbvNv63_KM7VH84Rd)
+* [**Devcon 3** (Cancún, 2017) website and registration](http://ethereumfoundation.org/devcon3/)
+
+
+## Explorer
+
+- [Etherscan](https://etherscan.io) 以太坊区块链浏览器
+- [Ethplorer](https://ethplorer.io) 以太坊区块链浏览器，提供API调用
+- [Eth Gas Station](https://ethgasstation.info/index.php) 以太坊Gas目前定价
+
+## Documents
+
+- [Mastering Ethereum](https://github.com/ethereumbook/ethereumbook) 精通以太坊开发Oreilly开源书
+- [Solidity语言文档](http://www.tryblockchain.org/) 语言中文手册
+- [Web3.JS接口文档](http://web3.tryblockchain.org/) 接口中文手册
+- [Truffle框架文档](http://truffle.tryblockchain.org/) 框架中文手册
+- [Open Zeppelin框架文档](http://zeppelin.tryblockchain.org/)
+- [Ethplorer接口](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API?from=etop) Ethplorer接口文档
+
+## SDK
+
+- [Truffle](https://github.com/trufflesuite/truffle) 以太坊Dapp开发脚手架
+- [Cakeshop](https://github.com/jpmorganchase/cakeshop) 来自JP Morgan的以太坊可视化管理工具
+- [Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) 用于编写安全的以太坊合约框架
+- [Web3j](https://github.com/web3j/web3j) 以太坊官方轻量级java SDK
 
 ----------------------------------------------------------------------------------------------------------------------
 
