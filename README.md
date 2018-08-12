@@ -212,6 +212,8 @@
 
 这部分资料没有阅读和学习过,后面学习中可能有用.
 
+## [区块链入门](https://liuchengxu.gitbook.io/blockchain)
+
 ## Wallet
 
 - [My Ether Wallet](https://myetherwallet.com) 网页版以太坊钱包 [源码](https://github.com/kvhnuke/etherwallet)
