@@ -2,6 +2,94 @@
 
 ----------------------------------------------------------------------------------------------------------------------------
 
+## 版本说明
+
+* [Frontier](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
+
+  简单的介绍区块链基础知识，通过阅读此版本可以对区块链技术有个初步的认知。
+  
+* [Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
+
+  介绍以太坊项目，并对涉及到的区块链核心技术点进行介绍和分析。
+
+* [Metropolis](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
+
+  该本版主要是关于智能合约和Dapp
+  
+* [Serenlity](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
+  
+  以太坊源码分析
+
+-------------------------------------------------------------------------------------------
+
+# Project progress
+
+## 阅读和整理区块链资料, 制作Frontier ---- 已完成
+  
+* 已完成Frontier版本,目前正在以太坊私有链上测试和部署 LBJ Token的功能.
+
+* 已完成LBJ　Token的功能测试，LBJ　可以部署在以太坊主网上。
+
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
+
+----------------------------------------------------------------------------------------------------------------------------
+
+## 以太坊私有链上测试和部署一些经典的智能合约 ----进行中
+
+### Solidity
+
+* [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
+
+### Web3 Api
+
+* [Web3 Api](https://github.com/xianfeng92/Web3js-Doc)
+
+### 经典的智能合约案例
+
+* 基于区块链的投票　－－Ballot
+* 盲拍 -- Blind Auction
+* 权限控制　－－　AccessControl
+
+### 智能合约设计模式
+
+* CD（Controller-Data）模式
+
+### Dapp
+
+* [NBASTAR](https://github.com/xianfeng92/NBASTAR)
+
+* [dog-shop](https://github.com/xianfeng92/dog-shop)
+
+
+### Dapp开发利器－Truffle
+
+* [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
+
+
+ [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
+ 
+--------------------------------------------------------------------------------------------------------------
+
+## P2P网络
+
+-----------------------------------------------------------------------------------------------------------
+
+## 可信之石(共识算法) ----进行中
+
+在一个分布式系统中，如何保证集群中所有节点中的数据完全相同并且能够对某个提案（Proposal）达成一致是分布式系统正常工作的核心问题，而共识算法就是用来保证分布式系统一致性的方法。无论是 Bitcoin、Ethereum 还是 EOS，作为一个分布式网络，首先需要解决分布式一致性的问题，也就是所有的节点如何对同一个提案或者值达成共识，这一问题在一个所有节点都是可以被信任的分布式集群中都是一个比较难以解决的问题，更不用说存在拜占庭节点的区块链网络中了。
+
+
+* [共识算法介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/consensus.md)
+
+* [Paxos](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/paxos.md)
+
+* [PBFT](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/pbft.md)
+
+* [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
+
+
+-------------------------------------------------------------------------------------------------------------
+
 ## [Ethresear](https://ethresear.ch/)
 
 ### Sharding
@@ -98,100 +186,6 @@
 
 -------------------------------------------------------------------------------------------
 
-
-## 版本说明
-
-* [Frontier](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
-
-  简单的介绍区块链基础知识，通过阅读此版本可以对区块链技术有个初步的认知。
-  
-* [Homestead](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Homestead.md)
-
-  介绍以太坊项目，并对涉及到的区块链核心技术点进行介绍和分析。
-
-* [Metropolis](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
-
-  该本版主要是关于智能合约和Dapp
-  
-* [Serenlity](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
-  
-  以太坊源码分析
-
--------------------------------------------------------------------------------------------
-
-
-# Project progress
-
-## 阅读和整理区块链资料, 制作Frontier ---- 已完成
-  
-* 已完成Frontier版本,目前正在以太坊私有链上测试和部署 LBJ Token的功能.
-
-* 已完成LBJ　Token的功能测试，LBJ　可以部署在以太坊主网上。
-
- [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Frontier.md)
-
-----------------------------------------------------------------------------------------------------------------------------
-
-## 以太坊私有链上测试和部署一些经典的智能合约 ----进行中
-
-### Solidity
-
-* [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
-
-### Web3 Api
-
-* [Web3 Api](https://github.com/xianfeng92/Web3js-Doc)
-
-### 经典的智能合约案例
-
-* 基于区块链的投票　－－Ballot
-* 盲拍 -- Blind Auction
-* 权限控制　－－　AccessControl
-
-### 智能合约设计模式
-
-* CD（Controller-Data）模式
-
-### Dapp
-
-* [NBASTAR](https://github.com/xianfeng92/NBASTAR)
-
-* [dog-shop](https://github.com/xianfeng92/dog-shop)
-
-
-### Dapp开发利器－Truffle
-
-* [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
-
-
- [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
- 
---------------------------------------------------------------------------------------------------------------
-
-## P2P网络
-
-
-
-
------------------------------------------------------------------------------------------------------------
-
-## 可信之石(共识算法) ----进行中
-
-在一个分布式系统中，如何保证集群中所有节点中的数据完全相同并且能够对某个提案（Proposal）达成一致是分布式系统正常工作的核心问题，而共识算法就是用来保证分布式系统一致性的方法。无论是 Bitcoin、Ethereum 还是 EOS，作为一个分布式网络，首先需要解决分布式一致性的问题，也就是所有的节点如何对同一个提案或者值达成共识，这一问题在一个所有节点都是可以被信任的分布式集群中都是一个比较难以解决的问题，更不用说存在拜占庭节点的区块链网络中了。
-
-
-* [共识算法介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/consensus.md)
-
-* [Paxos](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/paxos.md)
-
-* [PBFT](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/pbft.md)
-
-* [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
-
-
--------------------------------------------------------------------------------------------------------------
-
-
 # IPFS ----进行中
 
 星际文件系统IPFS（InterPlanetary File System）是一个面向全球的、点对点的分布式版本文件系统，目标是为了补充（甚至是取代）目前统治互联网的超文本传输协议（HTTP），将所有具有相同文件系统的计算设备连接在一起。
@@ -203,7 +197,6 @@
 ## Vickrey auction
 
 * [Vickreyauction](https://github.com/xianfeng92/Love-Ethereum/tree/master/Vickreyauction)
-
 
 ----------------------------------------------------------------------------------------------------------------------
 
