@@ -91,7 +91,7 @@
 * [普林斯顿观点：区块链究竟有什么好？](https://bihu.com/article/529658)
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
 * [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
-* [Bitcoin Core - BTC](https://bitcoin.org/) - (Bitcoin - 交易性能: SegWit), [github](https://github.com/bitcoin/bitcoin)
+* [测算：比特币地址碰撞概率](http://www.8btc.com/scom23854)
 
 -----------------
 
