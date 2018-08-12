@@ -87,7 +87,7 @@
 
 * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
 
-* [V神实现的99%容错算法]()
+* [V神实现的99%容错算法](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/99fault.py)
 
 
 -------------------------------------------------------------------------------------------------------------
