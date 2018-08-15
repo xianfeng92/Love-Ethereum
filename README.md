@@ -201,6 +201,8 @@
 * [IPFS基本操作](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSCommand.md)
 * [IPFS项目中的使用](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSBlockchain.md)
 * [IPFS + 区块链 系列](https://github.com/xianfeng92/IPFS-Ethereum-Image)
+* [IPFS 筆記和教學](https://github.com/miaoski/ipfs-tutorial)
+
 
 ## Vickrey auction
 
