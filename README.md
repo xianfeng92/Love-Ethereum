@@ -91,7 +91,7 @@
 
 
 -------------------------------------------------------------------------------------------------------------
-
+Mastering Ethereum
 ## [Ethresear](https://ethresear.ch/)
 
 ### Sharding
@@ -264,6 +264,7 @@
 # 开源区块链学习项目推荐----进行中
 
 * [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
+* [Mastering Ethereum(精通以太坊－英文版)](https://github.com/ethereumbook/ethereumbook)
 * [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
 * [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
 
