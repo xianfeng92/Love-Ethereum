@@ -259,7 +259,7 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-# 开源项目推荐----进行中
+# 开源区块链学习项目推荐----进行中
 
 * [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
 * [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
