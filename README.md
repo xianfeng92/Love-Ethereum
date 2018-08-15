@@ -259,6 +259,14 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
+# 开源项目推荐----进行中
+
+* [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
+* [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
+* [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
+
+--------------------------------------------------------------------------------------------------------------------
+
 # 大事件
 
 ## 6月10号EOS主网成功上线
