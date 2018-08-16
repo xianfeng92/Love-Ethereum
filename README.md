@@ -267,6 +267,8 @@ Mastering Ethereum
 * [Mastering Ethereum(精通以太坊－英文版)](https://github.com/ethereumbook/ethereumbook)
 * [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
 * [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
+* [blockchain_guide](https://github.com/yeasy/blockchain_guide)
+* [awesome-blockchain](https://github.com/dily3825002/awesome-blockchain) -- 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总
 
 --------------------------------------------------------------------------------------------------------------------
 
