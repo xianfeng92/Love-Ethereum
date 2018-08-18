@@ -2,7 +2,7 @@
 
 
 
-<img width="200" height="300" src="https://github.com/xianfeng92/Love-Ethereum/tree/master/icons"/>
+<img width="300" height="200" src="https://github.com/xianfeng92/Love-Ethereum/tree/master/icons"/>
 
 ----------------------------------------------------------------------------------------
 
