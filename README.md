@@ -1,8 +1,8 @@
 # Love-Ethereum
 
+----------------------------------------------------------------------------------------
 
-
-<img width="400" height="80" src="https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png"/>
+<img width="300" height="100" src="https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png"/>
 
 ----------------------------------------------------------------------------------------
 
