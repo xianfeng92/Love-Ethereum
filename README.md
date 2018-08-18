@@ -1,6 +1,8 @@
 # Love-Ethereum
 
-![](https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png)
+
+
+![](https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png = 200×300)
 
 ----------------------------------------------------------------------------------------
 
