@@ -2,7 +2,7 @@
 
 
 
-![](https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png = 200×300)
+![](https://github.com/xianfeng92/Love-Ethereum/blob/master/icons/horzlogo.png =200×300)
 
 ----------------------------------------------------------------------------------------
 
