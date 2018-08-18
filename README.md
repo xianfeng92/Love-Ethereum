@@ -2,7 +2,7 @@
 
 ----------------------------------------------------------------------------------------
 
-| [版本说明](#版本说明) | [项目进度](#项目进度) | [Ethresear](#Ethresear) | [以太坊源码的分析](#以太坊源码的分析) | [资料](#资料) | [区块链开源学习项目](#区块链开源学习项目) | [参与贡献](#参与贡献)
+| [版本说明](#版本说明) | [项目进度](#项目进度) | [以太坊相关研究](#以太坊相关研究) | [以太坊源码的分析](#以太坊源码的分析) | [区块链开源学习项目](#区块链开源学习项目) | [补充资料](#补充资料)| [参与贡献](#参与贡献)
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 ------------------------------------------------------------------------------------------------------
 
@@ -98,7 +98,7 @@
 
 -------------------------------------------------------------------------------------------------------------
 
-# Ethresear
+# 以太坊相关研究
 
 ## Sharding
 
@@ -199,7 +199,21 @@
 
 -----------------------------------------------------------------------------------------------
 
-# 资料
+# 区块链开源学习项目
+
+* [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
+* [Mastering Ethereum(精通以太坊－英文版)](https://github.com/ethereumbook/ethereumbook)
+* [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
+* [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
+* [blockchain_guide](https://github.com/yeasy/blockchain_guide)
+* [awesome-blockchain](https://github.com/dily3825002/awesome-blockchain) -- 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总
+* [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) -- A simple module for creating, manipulating and signing ethereum transactions
+* [EthList](https://github.com/Scanate/EthList) EthList: The Crowdsourced Ethereum Reading List
+
+--------------------------------------------------------------------------------------------------------------------
+
+
+# 补充资料
 
 这部分资料没有阅读和学习过,后面学习中可能有用.
 
@@ -272,41 +286,9 @@
 
 ----------------------------------------------------------------------------------------------------------------------
 
-# 区块链开源学习项目
-
-* [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
-* [Mastering Ethereum(精通以太坊－英文版)](https://github.com/ethereumbook/ethereumbook)
-* [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
-* [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
-* [blockchain_guide](https://github.com/yeasy/blockchain_guide)
-* [awesome-blockchain](https://github.com/dily3825002/awesome-blockchain) -- 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总
-* [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) -- A simple module for creating, manipulating and signing ethereum transactions
-* [EthList](https://github.com/Scanate/EthList) EthList: The Crowdsourced Ethereum Reading List
-
---------------------------------------------------------------------------------------------------------------------
-
-# 大事件
-
-## 6月10号EOS主网成功上线
-      
-      未来已来,只是尚未流行!
-
-这里引用EOS官方的话：
-
-Finally, the moment we have all been working for. After nearly a year long development process and community involvement, we have lift-off! The ideas on a whitepaper are brought to life thanks to all the contribution by a large community of well-wishers!
-Together we present EOS, a crypto-economic solution for securing life, liberty, property, and justice for all. Along with other crypto platforms we move toward the same end goal: minimizing corruption and maximizing freedom in society.
-
-"The greatness of a community is most accurately measured by the compassionate actions of its members." 
-
-- Coretta Scott King
-
------------------------------------------------------------------------------------------------------------
-
-
 # 参与贡献
 
 区块链技术自身仍在快速发展中，生态环境也在蓬勃成长。欢迎 [参与维护项目](https://github.com/xianfeng92/Love-Ethereum/blob/master/contribute.md)。
-
 
 -----------------------------------------------------------------------------------------------------------
 
