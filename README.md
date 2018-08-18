@@ -1,6 +1,6 @@
 # Love-Ethereum
 
-----------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 ## 版本说明
 
@@ -91,7 +91,7 @@
 
 
 -------------------------------------------------------------------------------------------------------------
-Mastering Ethereum
+
 ## [Ethresear](https://ethresear.ch/)
 
 ### Sharding
@@ -215,6 +215,20 @@ Mastering Ethereum
 这部分资料没有阅读和学习过,后面学习中可能有用.
 
 #### [区块链入门](https://liuchengxu.gitbook.io/blockchain)
+
+--------------------------------------------------------------------------
+
+## Some vedio about Ethereum
+
+* [thereum the world computer](https://www.youtube.com/watch?v=j23HnORQXvs)
+
+* [italik Buterin explains Ethereum](https://www.youtube.com/watch?v=TDGq4aeevgY)
+
+* [BBC explains Ethereum](https://www.youtube.com/watch?v=0X33lgMbvdI)
+
+* [Techcrunch on Ethereum](https://www.youtube.com/watch?v=WfULutvxvzY)
+
+* [Vitalik Buterin's Ethereum introduction at Devcon 1](https://www.youtube.com/watch?v=gjwr-7PgpN8)
 
 ## Wallet
 
