@@ -292,6 +292,7 @@
 * [blockchain_guide](https://github.com/yeasy/blockchain_guide)
 * [awesome-blockchain](https://github.com/dily3825002/awesome-blockchain) -- 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总
 * [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) -- A simple module for creating, manipulating and signing ethereum transactions
+* [EthList](https://github.com/Scanate/EthList) EthList: The Crowdsourced Ethereum Reading List
 
 --------------------------------------------------------------------------------------------------------------------
 
