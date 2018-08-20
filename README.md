@@ -135,8 +135,22 @@
 ### Plasma
 
 * [Minimal Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
+* [Plasma Whitepaper](https://plasma.io)
 
 ### Economics
+
+### Ecosystem
+
+* [Women in Blockchain Series](https://medium.com/@Melt_Dem)
+* [Where Can I Join The Ethereum Community?
+](https://medium.com/blockchannel/where-can-i-join-the-ethereum-community-3aa5c795b1e5
+)
+* [State of the Dapps
+](http://dapps.ethercasts.com/
+)
+* [Ethereum Business Directory
+](http://ethereumall.com/business-directory/page/9/?wpbdp_view=all_listings
+)
 
 ### Applications
 -----------------------------------------------------------------------
@@ -281,6 +295,13 @@
 - [Cakeshop](https://github.com/jpmorganchase/cakeshop) 来自JP Morgan的以太坊可视化管理工具
 - [Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) 用于编写安全的以太坊合约框架
 - [Web3j](https://github.com/web3j/web3j) 以太坊官方轻量级java SDK
+
+
+## YouTube Channels
+- [Crypt0's News - Daily Video Blog](https://www.youtube.com/user/obham001/videos)
+- [Ameer Rosic](https://www.youtube.com/user/AmeerRosic/videos)
+- [Decypher Media](https://www.youtube.com/channel/UC8CB0ZkvogP7tnCTDR-zV7g)
+- [Ivan on Tech](https://www.youtube.com/c/IvanOnTech)
 
 ----------------------------------------------------------------------------------------------------------------------
 
