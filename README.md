@@ -93,7 +93,6 @@
 
 * [V神实现的99%容错算法](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/99fault.py)
 
-
 -------------------------------------------------------------------------------------------------------------
 
 # 以太坊相关研究
@@ -182,11 +181,8 @@
 ## 节点中tx
 
 * [tx_contract](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_contract.md)
-
 * [tx_process](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_process.md)
-
 * [tx_consensus](https://github.com/xianfeng92/ethereum-code-analysis/blob/master/articles/tx_consensus.md)
-
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
  
@@ -224,7 +220,6 @@
 
 --------------------------------------------------------------------------------------------------------------------
 
-
 # 补充资料
 
 这部分资料没有阅读和学习过,后面学习中可能有用.
@@ -236,34 +231,14 @@
 ## Some vedio about Ethereum
 
 * [thereum the world computer](https://www.youtube.com/watch?v=j23HnORQXvs)
-
 * [italik Buterin explains Ethereum](https://www.youtube.com/watch?v=TDGq4aeevgY)
-
 * [BBC explains Ethereum](https://www.youtube.com/watch?v=0X33lgMbvdI)
-
 * [Techcrunch on Ethereum](https://www.youtube.com/watch?v=WfULutvxvzY)
-
 * [Vitalik Buterin's Ethereum introduction at Devcon 1](https://www.youtube.com/watch?v=gjwr-7PgpN8)
-
 *  [Devcon 0 (Berlin, 2014) talks and videos](https://www.youtube.com/watch?v=_BvvUlKDqp0&amp;list=PLJqWcTqh_zKEjpSej3ddtDOKPRGl_7MhS)
-
 *  [Devcon 1 (London, 2015) talks and videos](https://www.youtube.com/watch?v=BUARih8_f68&list=PLJqWcTqh_zKHQUFX4IaVjWjfT2tbS4NVk)
-
 *  [Devcon 2 (Shanghai, 2016) talks and videos](https://www.youtube.com/watch?v=1wayaZ1-iBE&list=PLaM7G4Llrb7xqzgOwbvNv63_KM7VH84Rd)
-
 * [Devcon 3 (Cancún, 2017) talks and videos](https://www.youtube.com/channel/UCNOfzGXD_C9YMYmnefmPH0g/playlists)
-
-## Wallet
-
-- [My Ether Wallet](https://myetherwallet.com) 网页版以太坊钱包 [源码](https://github.com/kvhnuke/etherwallet)
-- [MetaMask](https://metamask.io/) Chrome Extension浏览器插件版
-- [Multi-platform Jaxx Wallet](https://jaxx.io/) 同时兼容比特币钱包
-- [Mist Wallet](https://github.com/ethereum/mist/releases/latest) 官方版钱包
-- [Parity Wallet](https://github.com/paritytech/parity/releases/latest)
-- [Harmony Wallet](https://github.com/ether-camp/ethereum-harmony/releases/latest)
-- [imToken](https://token.im/) 移动App版钱包
-- [Ledger Nano S](https://theethereum.wiki/w/index.php/Ledger_Nano_S) 硬件钱包
-- [Trezor](https://blog.trezor.io/trezor-integration-with-myetherwallet-3e217a652e08) 硬件钱包
 
 ## Development Videos
 
@@ -273,12 +248,55 @@
 * [Devcon 2 (Shanghai, 2016) talks and videos](https://www.youtube.com/watch?v=1wayaZ1-iBE&list=PLaM7G4Llrb7xqzgOwbvNv63_KM7VH84Rd)
 * [**Devcon 3** (Cancún, 2017) website and registration](http://ethereumfoundation.org/devcon3/)
 
+## Programming
+* [The ultimate end-to-end tutorial to create and deploy a fully decentralized Dapp in ethereum](https://medium.com/@merunasgrincalaitis/the-ultimate-end-to-end-tutorial-to-create-and-deploy-a-fully-descentralized-dapp-in-ethereum-18f0cf6d7e0e)
+* [The ultimate guide to audit a Smart Contract + Most dangerous attacks in Solidity](https://medium.com/@merunasgrincalaitis/how-to-audit-a-smart-contract-most-dangerous-attacks-in-solidity-ae402a7e7868)
+* [Dapps 101: How do I start developing on Ethereum?](https://blog.andreacoravos.com/dapps-101-how-do-i-start-developing-on-ethereum-da0d38ed973f)
+* [Build your own crypto-currency with Ethereum](https://www.ethereum.org/token)
+* [Raise funds from friends without a third party](https://www.ethereum.org/crowdsale)
+* [Build a democracy on the blockchain](https://www.ethereum.org/dao)
+* [Build **your first DApp** in ten steps](https://github.com/paritytech/parity/wiki/Tutorial-Part-I)
+* [Ethereum DApp devolpment (videos)](http://decypher.tv/series/ethereum-development)
+* [Monitor the network status](https://ethstats.net/) ([mirror](http://stats.parity.io/)) and [the gas price market](http://ethgasstation.info/)
+* [Read the documentation](http://ethdocs.org/en/latest/) (for Homestead)
+* [Check out some **DApps**, that run on Ethereum](http://dapps.ethercasts.com/)
+* [Learn **Solidity**, an Ethereum smart contract language](https://solidity.readthedocs.io/)
+* [Check out **Truffle**, a smart contract development framework](http://truffleframework.com/)
+* [Browse the Ethereum Ecosystem Business Directory](http://ethereumall.com/)
+* [Ask questions at **Ethereum Stack Exchange**](http://ethereum.stackexchange.com/)
+* [Live chat with Ethereum developer teams and community](https://gitter.im/orgs/ethereum/rooms)
+* [Check out Ethereum **Meetups** in your area](https://www.meetup.com/topics/ethereum/)
+* [A 101 Noob Intro to Programming Smart Contracts on Ethereum](https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.ieo0yl4jr)
+* [Where can I learn how to develop DApps using the solidity programming language?](https://medium.com/@ConsenSys/a-101-noob-intro-to-programming-smart-contracts-on-ethereum-695d15c1dab4#.ieo0yl4jr
+)
+* [Learning to Code in Ethereum](https://www.reddit.com/r/ethereum/comments/4z4y81/any_advice_on_learning_to_code_in_ethereum/)
+* [Getting started with Ethereum & Solidity on Windows — part 1](https://medium.com/@wslyvh/get-started-with-ethereum-solidity-on-windows-1672e9953a1)
+* [Getting started with Ethereum, Solidity & Geth — part 2](https://medium.com/@wslyvh/getting-started-with-ethereum-solidity-geth-part-2-d195144fe6c7)
+* [CryptoZombies.io - Learn Solidity by Making a Game](https://cryptozombies.io/)
+* [How to deploy Smart Contract using Geth](https://medium.com/@thenanobyte/how-to-deploy-the-smart-contract-on-private-ethereum-network-using-geth-66586b53b06e)
+* [3 part series on building a full stack Ethereum voting dapp](https://medium.com/@mvmurthy/full-stack-hello-world-voting-ethereum-dapp-tutorial-part-1-40d2d0d807c2)
+* [Ethereum Development Guide — Part 1. Developing an Ethereum Document Certification Contract](https://medium.com/@sbeyer_31150/ethereum-development-guide-part-1-ad0c77c3683f)
+* [Ethereum Development Guide — Part 2. Interacting with smart contracts](https://medium.com/@sbeyer_31150/ethereum-development-guide-part-2-d2d8ac67e51d)
+* [Ethereum Development Guide — Part 3. Developing web interfaces for smart contracts](https://medium.com/@sbeyer_31150/ethereum-development-guide-part-3-c5a402bf8815)
+* [Developing an Ethereum Blockchain Application - Research project that is very useful and detailed](http://www.delaat.net/rp/2015-2016/p53/report.pdf)
+* [Ethereum Smart Contract Security](https://medium.com/@sbeyer_31150/ethereum-smart-contract-security-73b0ede73fa8)
+* [Ethereum Smart Contract Best Practices](https://consensys.github.io/smart-contract-best-practices/)
+* [Discover Ethereum & Solidity – Complete online course](https://www.ludu.co/course/ethereum)
 
 ## Explorer
 
-- [Etherscan](https://etherscan.io) 以太坊区块链浏览器
-- [Ethplorer](https://ethplorer.io) 以太坊区块链浏览器，提供API调用
-- [Eth Gas Station](https://ethgasstation.info/index.php) 以太坊Gas目前定价
+* [Etherscan](https://etherscan.io) 以太坊区块链浏览器
+* [Ethplorer](https://ethplorer.io) 以太坊区块链浏览器，提供API调用
+* [Eth Gas Station](https://ethgasstation.info/index.php) 以太坊Gas目前定价
+
+## Newsletters
+
+* [Week in Ethereum](http://www.weekinethereum.com/)
+* [Dapp Daily](https://dappdaily.com/)
+* [Consensys Media](https://media.consensys.net/)
+* [The Etherian](https://etherian.world/)
+* [The Control](https://thecontrol.co/)
+* [HEAT Crypto Roundup](http://heatledger.ghost.io/)
 
 ## Documents
 
@@ -289,13 +307,14 @@
 - [Open Zeppelin框架文档](http://zeppelin.tryblockchain.org/)
 - [Ethplorer接口](https://github.com/EverexIO/Ethplorer/wiki/Ethplorer-API?from=etop) Ethplorer接口文档
 
-## SDK
+## Thought Pieces
 
-- [Truffle](https://github.com/trufflesuite/truffle) 以太坊Dapp开发脚手架
-- [Cakeshop](https://github.com/jpmorganchase/cakeshop) 来自JP Morgan的以太坊可视化管理工具
-- [Zeppelin](https://github.com/OpenZeppelin/zeppelin-solidity) 用于编写安全的以太坊合约框架
-- [Web3j](https://github.com/web3j/web3j) 以太坊官方轻量级java SDK
-
+* [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
+* [Possibilities of Decentralized Technology](https://www.reddit.com/r/ethtrader/comments/4dvfcm/serious_question_can_anyone_actually_think_of/d1uskh1/)
+* [ethereum Community Values](https://www.reddit.com/r/ethereum/comments/57hqyg/thoughts_on_our_values_as_a_community/)
+* Growth of the Ethereum Ecosystem](https://blog.coinbase.com/the-coinbase-secret-master-plan-f4d644443301#.xdoe2er8i)
+* [The Internet of Agreements: Building the Hyperconnected Future on Blockchains](http://internetofagreements.com/files/WorldGovernmentSummit-Dubai2017.pdf)
+* [Money, Blockchains, and Social Scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html)
 
 ## YouTube Channels
 - [Crypt0's News - Daily Video Blog](https://www.youtube.com/user/obham001/videos)
