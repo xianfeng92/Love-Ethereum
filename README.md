@@ -72,10 +72,6 @@
 
  [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
  
---------------------------------------------------------------------------------------------------------------
-
-## P2P网络
-
 -----------------------------------------------------------------------------------------------------------
 
 ## 可信之石(共识算法)
@@ -105,7 +101,6 @@
 
 * [Sharding FAQ 中文版](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/ShardingFAQ.md)
 
-
 ## Cross-Shard
 
 ### [几种跨分片的方案](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/%E5%87%A0%E7%A7%8D%E8%B7%A8%E5%88%86%E7%89%87%E7%9A%84%E6%96%B9%E6%A1%88.md)
@@ -127,7 +122,6 @@
 * [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
 
 * [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
-
  
 ### Casper
 
@@ -142,16 +136,10 @@
 
 * [Women in Blockchain Series](https://medium.com/@Melt_Dem)
 * [Where Can I Join The Ethereum Community?
-](https://medium.com/blockchannel/where-can-i-join-the-ethereum-community-3aa5c795b1e5
-)
-* [State of the Dapps
-](http://dapps.ethercasts.com/
-)
-* [Ethereum Business Directory
-](http://ethereumall.com/business-directory/page/9/?wpbdp_view=all_listings
-)
+](https://medium.com/blockchannel/where-can-i-join-the-ethereum-community-3aa5c795b1e5)
+* [State of the Dapps](http://dapps.ethercasts.com/)
+* [Ethereum Business Directory](http://ethereumall.com/business-directory/page/9/?wpbdp_view=all_listings)
 
-### Applications
 -----------------------------------------------------------------------
 
 ## Gas
@@ -199,7 +187,6 @@
 * [IPFS项目中的使用](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/IPFSBlockchain.md)
 * [IPFS + 区块链 系列](https://github.com/xianfeng92/IPFS-Ethereum-Image)
 * [IPFS 筆記和教學](https://github.com/miaoski/ipfs-tutorial)
-
 
 ## Vickrey auction
 
