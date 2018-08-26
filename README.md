@@ -81,6 +81,8 @@
 
 * [Paxos](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/paxos.md)
 
+* [区块链共识算法Paxos实战](https://github.com/xianfeng92/PaxosDemo_py)
+
 * [PBFT](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/pbft.md)
 
 * [Proof of Stake FAQs](https://github.com/ethereum/wiki/wiki/Proof-of-Stake-FAQs)
