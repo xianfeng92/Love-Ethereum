@@ -203,6 +203,7 @@
 * [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) -- A simple module for creating, manipulating and signing ethereum transactions
 * [EthList](https://github.com/Scanate/EthList) EthList: The Crowdsourced Ethereum Reading List
 * [diagrams](https://github.com/xianfeng92/diagrams)
+* [ethereum-code-analysis](https://github.com/xianfeng92/ethereum-code-analysis)
 
 --------------------------------------------------------------------------------------------------------------------
 
