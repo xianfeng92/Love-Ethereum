@@ -130,8 +130,6 @@
 * [Minimal Viable Plasma](https://ethresear.ch/t/minimal-viable-plasma/426)
 * [Plasma Whitepaper](https://plasma.io)
 
-### Economics
-
 ### Ecosystem
 
 * [Women in Blockchain Series](https://medium.com/@Melt_Dem)
