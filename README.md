@@ -6,13 +6,13 @@
 
 ----------------------------------------------------------------------------------------
 
-| [版本说明](#版本说明) | [以太坊开发基础](#以太坊开发基础) | [以太坊相关研究](#以太坊相关研究) | [以太坊源码的分析](#以太坊源码的分析) | [区块链开源学习项目](#区块链开源学习项目) | [补充资料](#补充资料)| [参与贡献](#参与贡献)
+| [版本说明](#版本说明) | [区块链](#区块链) | [以太坊](#以太坊) | [区块链开源学习项目](#区块链开源学习项目) | [补充资料](#补充资料)| [参与贡献](#参与贡献)
 | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- | ------------- |
 ------------------------------------------------------------------------------------------------------
 
 # Progress
 
-![Progress](http://progressed.io/bar/20)
+![Progress](http://progressed.io/bar/22)
 
 -----------------------
 
@@ -34,43 +34,14 @@
   
 -------------------------------------------------------------------------------------------
 
-# 以太坊开发基础
+# 区块链
 
-## 以太坊私有链上测试和部署一些经典的智能合约
+## 区块链基础
 
-### Solidity
+* [Building Blockchain in Go](https://jeiwan.cc/tags/bitcoin/)
+* [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
+* [blockchain_demo](https://github.com/seanjameshan/blockchain)
 
-* [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
-
-### Web3 Api
-
-* [Web3 Api](https://github.com/xianfeng92/Web3js-Doc)
-
-### 经典的智能合约案例
-
-* 基于区块链的投票　－－Ballot
-* 盲拍 -- Blind Auction
-* 权限控制　－－　AccessControl
-
-### 智能合约设计模式
-
-* CD（Controller-Data）模式
-
-### Dapp
-
-* [NBASTAR](https://github.com/xianfeng92/NBASTAR)
-
-* [dog-shop](https://github.com/xianfeng92/dog-shop)
-
-
-### Dapp开发利器－Truffle
-
-* [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
-
-
- [点击直达](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Metropolis.md)
- 
------------------------------------------------------------------------------------------------------------
 
 ## 可信之石(共识算法)
 
@@ -89,9 +60,9 @@
 
 * [V神实现的99%容错算法](https://github.com/xianfeng92/Love-Ethereum/blob/master/notes/99fault.py)
 
--------------------------------------------------------------------------------------------------------------
+-----------------------------------------------------------------------------------------------------------
 
-# 以太坊相关研究
+# 以太坊
 
 ## Sharding
 
@@ -153,7 +124,7 @@
 
 ------------------------------------------------------------------------------------------------------------
 
-# 以太坊源码的分析
+## 以太坊源码的分析
 
 * 目前主要是阅读一些以太坊源码解读的文章
 
@@ -166,7 +137,6 @@
 * [ 椭圆曲线密码学和以太坊中的椭圆曲线数字签名算法应用](https://blog.csdn.net/teaspring/article/details/77834360)
 * [从钱包到客户端](https://blog.csdn.net/teaspring/article/details/78350888)
 
-## 源码分析
 
 从源码上去分析以太坊上 tx 的执行，节点通信以及数据存储的具体流程和实现细节。
 
@@ -202,14 +172,15 @@
 
 * [Mastering Bitcoin(精通比特币—英文版)](https://github.com/bitcoinbook/bitcoinbook)
 * [Mastering Ethereum(精通以太坊－英文版)](https://github.com/ethereumbook/ethereumbook)
-* [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
-* [blockchain_demo](https://github.com/seanjameshan/blockchain) ---区块链的演示
-* [blockchain_guide](https://github.com/yeasy/blockchain_guide)
 * [awesome-blockchain](https://github.com/dily3825002/awesome-blockchain) -- 区块链白皮书、书籍、交易所、币种、自媒体等资源汇总
 * [ethereumjs-tx](https://github.com/ethereumjs/ethereumjs-tx) -- A simple module for creating, manipulating and signing ethereum transactions
 * [EthList](https://github.com/Scanate/EthList) EthList: The Crowdsourced Ethereum Reading List
 * [diagrams](https://github.com/xianfeng92/diagrams)
 * [ethereum-code-analysis](https://github.com/xianfeng92/ethereum-code-analysis)
+* [Solidity官方文档翻译](https://github.com/xianfeng92/Solidity-Docs)
+* [NBASTAR](https://github.com/xianfeng92/NBASTAR)
+* [dog-shop](https://github.com/xianfeng92/dog-shop)
+* [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
 
 --------------------------------------------------------------------------------------------------------------------
 
