@@ -120,10 +120,16 @@
 --------------------------------------------------------------------------------------------------------------------------
 
 * [Cross-links between main chain and shards](https://ethresear.ch/t/cross-links-between-main-chain-and-shards/1860)
-
 * [Cross Shard Locking Scheme](https://ethresear.ch/t/cross-shard-locking-scheme-1/1269/25)
+* [Torus-shaped sharding network](https://ethresear.ch/t/torus-shaped-sharding-network/1720)
  
 ### Casper
+
+* [Two-speed Casper FFG](https://ethresear.ch/t/two-speed-casper-ffg/2084)
+* [Casper FFG with one message type, and simpler fork choice rule](https://ethresear.ch/t/casper-ffg-with-one-message-type-and-simpler-fork-choice-rule/103)
+* [Latest Casper Basics. Tear it apart](https://ethresear.ch/t/latest-casper-basics-tear-it-apart/151)
+* [Convenience link to Casper+Sharding chain v2.1 spec](https://ethresear.ch/t/convenience-link-to-casper-sharding-chain-v2-1-spec/2332)
+
 
 ### Plasma
 
