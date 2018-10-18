@@ -133,6 +133,7 @@
 >
 * [实现这些扩容方案，以太坊将可支持10亿用户](http://www.8btc.com/scaling-ethereum-to-billions-of-users)
 >
+* [从零实现一个功能完善的迷你区块链](https://shuwoom.com/?p=1211)
 * [以太坊开发入门，完整入门篇](http://me.tryblockchain.org/getting-up-to-speed-on-ethereum.html)
 * [以太坊入门](https://bihu.com/article/563457)
 * [从区块链的基础知识出发，研究ETH和EOS的区别](https://bihu.com/article/165408)
@@ -189,6 +190,7 @@
 #### 相关文章
 
 * [共识算法（POW,POS,DPOS,PBFT）介绍和心得](http://blog.csdn.net/lsttoy/article/details/61624287)
+* [深入浅出RAFT共识算法](https://shuwoom.com/?p=826)
 * [掰一掰区块链共识机制与分布式一致性算法](https://yq.aliyun.com/articles/60400)
 * [什么是区块链共识？](http://8btc.com/article-2238-1.html)
 * [区块链共识机制浅谈](http://blog.csdn.net/jeffrey__zhou/article/details/56672948)
