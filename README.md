@@ -276,7 +276,7 @@
 * [Why Decentralization Matters](https://medium.com/@cdixon/why-decentralization-matters-5e3f79f7638e)
 * [Possibilities of Decentralized Technology](https://www.reddit.com/r/ethtrader/comments/4dvfcm/serious_question_can_anyone_actually_think_of/d1uskh1/)
 * [ethereum Community Values](https://www.reddit.com/r/ethereum/comments/57hqyg/thoughts_on_our_values_as_a_community/)
-* Growth of the Ethereum Ecosystem](https://blog.coinbase.com/the-coinbase-secret-master-plan-f4d644443301#.xdoe2er8i)
+* [Growth of the Ethereum Ecosystem](https://blog.coinbase.com/the-coinbase-secret-master-plan-f4d644443301#.xdoe2er8i)
 * [The Internet of Agreements: Building the Hyperconnected Future on Blockchains](http://internetofagreements.com/files/WorldGovernmentSummit-Dubai2017.pdf)
 * [Money, Blockchains, and Social Scalability](http://unenumerated.blogspot.com/2017/02/money-blockchains-and-social-scalability.html)
 
