@@ -83,6 +83,7 @@
 ###  相关文章
 
 * [区块链原理最清晰最直观的解释](http://blog.jobbole.com/112551/)- 图文展示区块链结构
+* [比特币交易原理分析](https://shuwoom.com/?p=430)
 * [最小可行性区块链原理解析](http://www.8btc.com/minimum-viable-block-chain) -从生活中的例子出发去理解区块链到底解决了什么问题
 * [不谈抽象的概念,到底如何从技术角度理解区块链?](http://www.sohu.com/a/115655724_116235) - 从生活和技术上去理解区块链,写的真好
 * [区块链应用的去中心化——一个乌托邦](http://blockchaindev.org/talk/decentralized-blockchain-applications-are-utopia.html) -关于中心和去中心化写的很棒
