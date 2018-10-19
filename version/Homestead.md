@@ -138,6 +138,7 @@
 * [以太坊入门](https://bihu.com/article/563457)
 * [从区块链的基础知识出发，研究ETH和EOS的区别](https://bihu.com/article/165408)
 * [关于以太坊，你必须要知道的～～～Casper](https://bihu.com/article/142335)
+* [什么是零知识证明](https://shuwoom.com/?p=947)
 
 
 -----------------
