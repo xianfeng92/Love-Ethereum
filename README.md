@@ -180,6 +180,7 @@
 * [dog-shop](https://github.com/xianfeng92/dog-shop)
 * [Truffle技术文档翻译](https://github.com/xianfeng92/Truffle-Docs)
 * [区块链的共识与共识的区块链...持续更新](https://www.jianshu.com/p/fb46283b7a96)　这是汇集的是自2018年7月19日以来在DAGA | Blockchain & AI （核心群）的在线分享讲座的整理文稿。
+* [List-of-translation-of-crypto-terms-by-EthFans](https://github.com/editor-Ajian/List-of-translation-of-crypto-terms-by-EthFans)
 
 
 --------------------------------------------------------------------------------------------------------------------
