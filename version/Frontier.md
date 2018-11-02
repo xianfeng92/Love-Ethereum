@@ -67,6 +67,8 @@
 
 ---------------
 
+* [科普 | 区块链是什么鬼？](https://ethfans.org/posts/wtf-is-the-blockchain)
+
 ## 基础知识
 
 ### 书籍
