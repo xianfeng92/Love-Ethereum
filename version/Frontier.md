@@ -96,6 +96,7 @@
 * [对去中心化含义的深层思考：究竟是谁控制着区块链？](http://www.8btc.com/who-controls-blockchain)
 * [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
 * [测算：比特币地址碰撞概率](http://www.8btc.com/scom23854)
+* [干货 | 什么是加密经济学？ 初学者终极指南](https://ethfans.org/posts/what-is-cryptoeconomics-beginners-guide)
 
 -----------------
 
