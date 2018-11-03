@@ -10,7 +10,7 @@
 
 # Progress
 
-![Progress](http://progressed.io/bar/25)
+![Progress](http://progressed.io/bar/26)
 
 -----------------------
 
