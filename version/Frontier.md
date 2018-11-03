@@ -97,6 +97,7 @@
 * [蚂蚁学堂：比特币钱包地址、私钥和公钥到底是什么关系？](http://www.8btc.com/antschool2)
 * [测算：比特币地址碰撞概率](http://www.8btc.com/scom23854)
 * [干货 | 什么是加密经济学？ 初学者终极指南](https://ethfans.org/posts/what-is-cryptoeconomics-beginners-guide)
+* [干货 | 关于 UTXO 的思考](https://ethfans.org/posts/thoughts-on-utxo)
 
 -----------------
 
