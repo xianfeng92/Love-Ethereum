@@ -47,6 +47,7 @@ Winter & Study
 
 在一个分布式系统中，如何保证集群中所有节点中的数据完全相同并且能够对某个提案（Proposal）达成一致是分布式系统正常工作的核心问题，而共识算法就是用来保证分布式系统一致性的方法。无论是 Bitcoin、Ethereum 还是 EOS，作为一个分布式网络，首先需要解决分布式一致性的问题，也就是所有的节点如何对同一个提案或者值达成共识，这一问题在一个所有节点都是可以被信任的分布式集群中都是一个比较难以解决的问题，更不用说存在拜占庭节点的区块链网络中了。
 
+* [科普|论共识机制](https://ethfans.org/posts/on-consensus-by-jordan)
 
 * [共识算法介绍](https://github.com/xianfeng92/Love-Ethereum/blob/master/DistributedSystem/consensus.md)
 
