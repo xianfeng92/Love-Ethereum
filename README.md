@@ -14,7 +14,7 @@ Winter & Study
 
 # Progress
 
-![Progress](http://progressed.io/bar/26)
+![Progress](http://progressed.io/bar/28)
 
 -----------------------
 
@@ -35,6 +35,15 @@ Winter & Study
 * [Serenlity](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
   
 -------------------------------------------------------------------------------------------
+# 观点
+* [“区块链”一词不过是唬人的空壳子](https://ethfans.org/posts/blockchain-is-a-semantic-wasteland)
+
+* [以太坊用户体验的痛点](https://ethfans.org/posts/challenge-of-ux-in-ethereum)
+
+* [公链治理与“社区”的几种意思](https://ethfans.org/posts/governance-in-public-blockchain-and-meanings-of-community)
+
+
+--------------------------------------------------------------------------------------------
 
 # 区块链
 
