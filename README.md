@@ -14,7 +14,7 @@ Winter & Study
 
 # Progress
 
-![Progress](http://progressed.io/bar/28)
+![Progress](http://progressed.io/bar/32)
 
 -----------------------
 
@@ -33,19 +33,18 @@ Winter & Study
   该本版主要是关于智能合约和Dapp
   
 * [Serenlity](https://github.com/xianfeng92/Love-Ethereum/blob/master/version/Serenlity.md)
-  
--------------------------------------------------------------------------------------------
-# 观点
+
+--------------------------------------------------------------------------------------------
+
+# 区块链
+
+## 观点
 * [“区块链”一词不过是唬人的空壳子](https://ethfans.org/posts/blockchain-is-a-semantic-wasteland)
 
 * [以太坊用户体验的痛点](https://ethfans.org/posts/challenge-of-ux-in-ethereum)
 
 * [公链治理与“社区”的几种意思](https://ethfans.org/posts/governance-in-public-blockchain-and-meanings-of-community)
 
-
---------------------------------------------------------------------------------------------
-
-# 区块链
 
 ## 区块链基础
 
@@ -76,7 +75,31 @@ Winter & Study
 
 # 以太坊
 
+## 什么是以太坊
+
+* [Vitalik: 25分钟认识以太坊(上)](https://ethfans.org/posts/Ethereum-in-25-minites-vision-2017-1)
+
+* [Vitalik: 25分钟认识以太坊（下）](https://ethfans.org/posts/25-minutes-in-Ethereum-vision-2017-2)
+
+* [以太坊：比特币 + 无限可能](https://ethfans.org/posts/ethereum-bitcoin-plus-everything)
+
 * [以太坊 2.0，一段从 2014 年开始的征程](https://ethfans.org/posts/ethereum-2-begins-from-2014)
+
+## 以太坊发展历史
+
+* [以太坊：走向公众](https://ethfans.org/posts/ethereum-now-going-public)
+
+* [以太坊发布过程](https://ethfans.org/posts/ethereum-launch-process)
+
+* [以太坊的进化](https://ethfans.org/posts/the-evolution-of-ethereum)
+
+* [Homestead 发布](https://ethfans.org/posts/homestead-release)
+
+* [DAO正在遭受攻击，你应当如何反应？](https://ethfans.org/posts/attack-on-thedao-what-will-be-your-response)
+
+* [拜占庭硬分叉](https://ethfans.org/posts/byzantium-hf-announcement)
+
+* [Casper ❤️ 分片](https://ethfans.org/posts/casper-with-sharding)
 
 ## Sharding
 
