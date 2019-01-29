@@ -14,7 +14,7 @@ Winter & Study
 
 # Progress
 
-![Progress](http://progressed.io/bar/32)
+![Progress](http://progressed.io/bar/33)
 
 -----------------------
 
@@ -53,6 +53,7 @@ Winter & Study
 * [Building Blockchain in Go](https://jeiwan.cc/tags/bitcoin/)
 * [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
 * [blockchain_demo](https://github.com/seanjameshan/blockchain)
+*[programming-blockchains](https://github.com/openblockchains/programming-blockchains)
 
 
 ## 可信之石(共识算法)
