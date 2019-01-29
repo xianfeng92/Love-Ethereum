@@ -45,6 +45,8 @@ Winter & Study
 
 * [公链治理与“社区”的几种意思](https://ethfans.org/posts/governance-in-public-blockchain-and-meanings-of-community)
 
+*[比特币与社会契约](https://ethfans.org/posts/bitcoins-social-contract-by-hasu)
+*[中本聪 K.O. 女巫](https://ethfans.org/posts/sybil-and-satoshi)
 
 ## 区块链基础
 
