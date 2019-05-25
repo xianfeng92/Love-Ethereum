@@ -51,6 +51,8 @@
 
 ## 区块链基础
 
+* [比特币和区块链啥原理?矿机挖矿咋回事?李永乐老师讲比特币](https://www.ixigua.com/i6654126197812757003/#mid=4234740937)
+* [比特币交易如何防伪?私钥公钥地址啥意思?李永乐老师讲比特币](https://www.ixigua.com/i6655932387005825543/#mid=4234740937)
 * [Building Blockchain in Go](https://jeiwan.cc/tags/bitcoin/)
 * [Blockchain Tutorial](https://github.com/liuchengxu/blockchain-tutorial)
 * [blockchain_demo](https://github.com/seanjameshan/blockchain)
@@ -338,18 +340,3 @@
 区块链技术自身仍在快速发展中，生态环境也在蓬勃成长。欢迎 [参与维护项目](https://github.com/xianfeng92/Love-Ethereum/blob/master/contribute.md)。
 
 -----------------------------------------------------------------------------------------------------------
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
